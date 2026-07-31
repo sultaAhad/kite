@@ -7,7 +7,7 @@ include 'inc/app.php'; ?>
 <!-- Banner Section Start Here -->
 <!-- Removed overflowing d-flex and py-5, replaced with proper padding in CSS -->
 <section class="kf-hero-banner position-relative overflow-hidden">
-    
+
     <!-- Decorative elements from image -->
     <div class="kf-diamond kf-diamond-left"></div>
     <div class="kf-diamond kf-diamond-right"></div>
@@ -16,9 +16,10 @@ include 'inc/app.php'; ?>
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-10">
                 <div class="kf-hero-content pt-5 mt-5 pb-2">
-                    
+
                     <!-- Top Subheading Pill - Adjusted size to fs-8 -->
-                    <div class="kf-badge-pill d-inline-flex align-items-center gap-2 mb-3 px-3 py-1_5 rounded-pill bg-white shadow-sm border">
+                    <div
+                        class="kf-badge-pill d-inline-flex align-items-center gap-2 mb-3 px-3 py-1_5 rounded-pill bg-white shadow-sm border">
                         <img src="img/primium.png" alt="Wind Icon" width="16" height="16">
                         <span class="text-uppercase fw-semibold fs-8 text-dark para-font">Premium Wind Adventures</span>
                     </div>
@@ -31,13 +32,17 @@ include 'inc/app.php'; ?>
 
                     <!-- Description - Added specific color class -->
                     <p class="kf-hero-text para-font mb-4 text-dark fs-5 op-8">
-                        Premium kites, wind art, stunt kites, wind spinners and outdoor experiences designed for beaches, parks, festivals and unforgettable adventures.
+                        Premium kites, wind art, stunt kites, wind spinners and outdoor experiences designed for
+                        beaches, parks, festivals and unforgettable adventures.
                     </p>
 
                     <!-- CTA Buttons - Adjusted padding and flex structure -->
                     <div class="kf-hero-buttons d-flex flex-wrap align-items-center gap-3 mb-2">
-                        <a href="shop" class="btn kf-btn-primary d-inline-flex align-items-center gap-2">Shop Kites <i class="fa-solid fa-arrow-right fs-7"></i></a>
-                        <a href="explore" class="btn kf-btn-outline d-inline-flex align-items-center gap-2 text-dark">Explore Wind Art</a>
+                        <a href="shop" class="btn kf-btn-primary d-inline-flex align-items-center gap-2">Shop Kites <i
+                                class="fa-solid fa-arrow-right fs-7"></i></a>
+                        <a href="explore"
+                            class="btn kf-btn-outline d-inline-flex align-items-center gap-2 text-dark">Explore Wind
+                            Art</a>
                     </div>
 
                 </div>
@@ -59,7 +64,8 @@ include 'inc/app.php'; ?>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-6">
-                <div class="kf-stat-card one-wrapper-cart2 shadow-sm h-100 d-flex flex-column justify-content-center position-relative">
+                <div
+                    class="kf-stat-card one-wrapper-cart2 shadow-sm h-100 d-flex flex-column justify-content-center position-relative">
                     <i class="fa-solid fa-star fs-7 text-secondary position-absolute top-0 end-0 mt-3 me-3"></i>
                     <small class="text-uppercase fs-8 fw-semibold mb-1">Avg<br>Rating</small>
                     <h3 class="fw-bolder mb-0 heading-font">4.9</h3>
@@ -80,10 +86,11 @@ include 'inc/app.php'; ?>
 <!-- Wind Collections Section Start -->
 <section class="wind-collections-sec py-5">
     <div class="container py-lg-4">
-        
+
         <!-- Section Header -->
         <div class="text-center mb-5">
-            <span class="sub-title text-uppercase tracking-widest text-info fw-bold fs-8 d-block mb-2">Wind Collections</span>
+            <span class="sub-title text-uppercase tracking-widest text-info fw-bold fs-8 d-block mb-2">Wind
+                Collections</span>
             <h2 class="section-title display-5 fw-bold text-white mb-3 heading-font">Choose your wind.</h2>
             <p class="section-desc text-white-50 mx-auto para-font" style="max-width: 600px;">
                 Built for every type of flyer — from first delta to festival-grade foil.
@@ -92,18 +99,22 @@ include 'inc/app.php'; ?>
 
         <!-- Grid Layout -->
         <div class="row g-4">
-            
+
             <!-- Left Side: Large Featured Card -->
             <div class="col-lg-7">
                 <div class="collection-card feature-card rounded-5 overflow-hidden position-relative h-100">
                     <img src="img/collection-img.png" alt="Sport & Stunt Kites" class="card-bg-img">
                     <div class="card-overlay p-4 p-md-5 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Performance</span>
+                        <span
+                            class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Performance</span>
                         <h3 class="card-title text-white fw-bold display-6 mb-2">Sport & Stunt Kites</h3>
-                        <p class="card-text text-white-50 fs-7 mb-4">Dual-line precision built for tricks, dives and aerial choreography.</p>
-                        <a href="#" class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
+                        <p class="card-text text-white-50 fs-7 mb-4">Dual-line precision built for tricks, dives and
+                            aerial choreography.</p>
+                        <a href="#"
+                            class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
                             <span>Explore</span>
-                            <span class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
+                            <span
+                                class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
                                 <i class="fa-solid fa-arrow-right fs-8"></i>
                             </span>
                         </a>
@@ -114,18 +125,21 @@ include 'inc/app.php'; ?>
             <!-- Right Side: 2 Stacked Cards -->
             <div class="col-lg-5">
                 <div class="row g-4 h-100">
-                    
+
                     <!-- Top Right Card -->
                     <div class="col-12">
                         <div class="collection-card rounded-5 overflow-hidden position-relative h-100 min-h-200">
                             <img src="img/collection-img1.png" alt="Delta Kites" class="card-bg-img">
                             <div class="card-overlay p-4 d-flex flex-column justify-content-end">
-                                <span class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Classics</span>
+                                <span
+                                    class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Classics</span>
                                 <h3 class="card-title text-white fw-bold fs-3 mb-1">Delta Kites</h3>
                                 <p class="card-text text-white-50 fs-7 mb-3">Easy lift, easy launch.</p>
-                                <a href="#" class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
+                                <a href="#"
+                                    class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
                                     <span>Explore</span>
-                                    <span class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
+                                    <span
+                                        class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
                                         <i class="fa-solid fa-arrow-right fs-8"></i>
                                     </span>
                                 </a>
@@ -138,12 +152,15 @@ include 'inc/app.php'; ?>
                         <div class="collection-card rounded-5 overflow-hidden position-relative h-100 min-h-200">
                             <img src="img/collection-img2.png" alt="Foil Kites" class="card-bg-img">
                             <div class="card-overlay p-4 d-flex flex-column justify-content-end">
-                                <span class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Power</span>
+                                <span
+                                    class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Power</span>
                                 <h3 class="card-title text-white fw-bold fs-3 mb-1">Foil Kites</h3>
                                 <p class="card-text text-white-50 fs-7 mb-3">Frameless cells, maximum pull.</p>
-                                <a href="#" class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
+                                <a href="#"
+                                    class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
                                     <span>Explore</span>
-                                    <span class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
+                                    <span
+                                        class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
                                         <i class="fa-solid fa-arrow-right fs-8"></i>
                                     </span>
                                 </a>
@@ -159,12 +176,16 @@ include 'inc/app.php'; ?>
                 <div class="collection-card rounded-5 overflow-hidden position-relative min-h-220 h-100">
                     <img src="img/collection-img5.png" alt="Windsocks" class="card-bg-img">
                     <div class="card-overlay p-4 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Wave & Color</span>
+                        <span
+                            class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Wave
+                            & Color</span>
                         <h3 class="card-title text-white fw-bold fs-4 mb-1">Windsocks</h3>
                         <p class="card-text text-white-50 fs-8 mb-3">Fluted banners that breathe with the wind.</p>
-                        <a href="#" class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
+                        <a href="#"
+                            class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
                             <span>Explore</span>
-                            <span class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
+                            <span
+                                class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
                                 <i class="fa-solid fa-arrow-right fs-8"></i>
                             </span>
                         </a>
@@ -176,12 +197,15 @@ include 'inc/app.php'; ?>
                 <div class="collection-card rounded-5 overflow-hidden position-relative min-h-220 h-100">
                     <img src="img/collection-img4.png" alt="Wind Spinners" class="card-bg-img">
                     <div class="card-overlay p-4 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Kinetic</span>
+                        <span
+                            class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Kinetic</span>
                         <h3 class="card-title text-white fw-bold fs-4 mb-1">Wind Spinners</h3>
                         <p class="card-text text-white-50 fs-8 mb-3">Hypnotic motion for any outdoor space.</p>
-                        <a href="#" class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
+                        <a href="#"
+                            class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
                             <span>Explore</span>
-                            <span class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
+                            <span
+                                class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
                                 <i class="fa-solid fa-arrow-right fs-8"></i>
                             </span>
                         </a>
@@ -193,12 +217,15 @@ include 'inc/app.php'; ?>
                 <div class="collection-card rounded-5 overflow-hidden position-relative min-h-220 h-100">
                     <img src="img/collection-img3.png" alt="Garden Windmills" class="card-bg-img">
                     <div class="card-overlay p-4 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Backyard</span>
+                        <span
+                            class="category-tag text-uppercase text-white-50 fs-8 fw-semibold tracking-wider mb-1">Backyard</span>
                         <h3 class="card-title text-white fw-bold fs-4 mb-1">Garden Windmills</h3>
                         <p class="card-text text-white-50 fs-8 mb-3">Slow, beautiful, weatherproof.</p>
-                        <a href="#" class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
+                        <a href="#"
+                            class="explore-btn text-white text-decoration-none d-inline-flex align-items-center gap-2 fw-semibold">
                             <span>Explore</span>
-                            <span class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
+                            <span
+                                class="arrow-icon rounded-circle d-flex align-items-center justify-content-center bg-white text-dark">
                                 <i class="fa-solid fa-arrow-right fs-8"></i>
                             </span>
                         </a>
@@ -210,22 +237,23 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Wind Collections Section End -->
- <!-- The Wind Experience Section Start -->
+<!-- The Wind Experience Section Start -->
 <section class="wind-experience-sec py-5 position-relative">
     <div class="container py-lg-5">
         <div class="row align-items-center g-4 g-lg-5">
-            
+
             <!-- Left Side: Image Card -->
             <div class="col-lg-6">
                 <div class="experience-img-wrapper rounded-5 overflow-hidden position-relative">
-                    <img src="img/collection-img1.png" alt="Kids flying kite on beach" class="img-fluid w-100 h-100 object-fit-cover">
+                    <img src="img/collection-img1.png" alt="Kids flying kite on beach"
+                        class="img-fluid w-100 h-100 object-fit-cover">
                 </div>
             </div>
 
             <!-- Right Side: Content & Feature Cards -->
             <div class="col-lg-6">
                 <div class="experience-content ps-lg-3">
-                    
+
                     <!-- Subtitle -->
                     <span class="sub-title text-uppercase tracking-widest text-info fw-bold fs-8 d-block mb-2">
                         THE WIND EXPERIENCE
@@ -239,53 +267,66 @@ include 'inc/app.php'; ?>
 
                     <!-- Paragraph Description -->
                     <p class="section-desc text-white-50 para-font mb-4 fs-7">
-                        For over a decade, kiteflyershop has helped families, collectors, beach travelers and kite enthusiasts experience the joy of wind-powered adventure.
+                        For over a decade, kiteflyershop has helped families, collectors, beach travelers and kite
+                        enthusiasts experience the joy of wind-powered adventure.
                     </p>
 
                     <!-- Feature Cards Grid (2x2) -->
                     <div class="row g-3">
-                        
+
                         <!-- Card 1: Family Adventures -->
                         <div class="col-sm-6">
                             <div class="feature-card p-3 p-xl-4 rounded-4 h-100">
-                                <div class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
+                                <div
+                                    class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
                                     <i class="fa-regular fa-heart text-white"></i>
                                 </div>
-                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Family Adventures</h4>
-                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">Shared skies, shared memories.</p>
+                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Family Adventures
+                                </h4>
+                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">Shared skies, shared memories.
+                                </p>
                             </div>
                         </div>
 
                         <!-- Card 2: Festival Culture -->
                         <div class="col-sm-6">
                             <div class="feature-card p-3 p-xl-4 rounded-4 h-100">
-                                <div class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
+                                <div
+                                    class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
                                     <i class="fa-regular fa-flag text-white"></i>
                                 </div>
-                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Festival Culture</h4>
-                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">From local meet-ups to world fly-ins.</p>
+                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Festival Culture
+                                </h4>
+                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">From local meet-ups to world
+                                    fly-ins.</p>
                             </div>
                         </div>
 
                         <!-- Card 3: Outdoor Freedom -->
                         <div class="col-sm-6">
                             <div class="feature-card p-3 p-xl-4 rounded-4 h-100">
-                                <div class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
+                                <div
+                                    class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
                                     <i class="fa-solid fa-wind text-white"></i>
                                 </div>
-                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Outdoor Freedom</h4>
-                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">Beaches, lakes, mountain ridges.</p>
+                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Outdoor Freedom
+                                </h4>
+                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">Beaches, lakes, mountain ridges.
+                                </p>
                             </div>
                         </div>
 
                         <!-- Card 4: Creative Expression -->
                         <div class="col-sm-6">
                             <div class="feature-card p-3 p-xl-4 rounded-4 h-100">
-                                <div class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
+                                <div
+                                    class="icon-badge rounded-circle d-flex align-items-center justify-content-center mb-3">
                                     <i class="fa-solid fa-wand-magic-sparkles text-white"></i>
                                 </div>
-                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Creative Expression</h4>
-                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">Color, motion, design in the sky.</p>
+                                <h4 class="card-title text-white fw-bold fs-6 mb-1 primary-bold-font">Creative
+                                    Expression</h4>
+                                <p class="card-desc text-white-50 fs-8 mb-0 para-font">Color, motion, design in the sky.
+                                </p>
                             </div>
                         </div>
 
@@ -298,55 +339,63 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- The Wind Experience Section End -->
- <!-- Community Stats Banner Section Start -->
+<!-- Community Stats Banner Section Start -->
 <section class="community-stats-sec py-5 position-relative overflow-hidden">
     <!-- Background Image with Cyan Overlay -->
     <div class="stats-bg-overlay"></div>
 
     <div class="container py-lg-4 position-relative z-2">
-        
+
         <!-- Section Header -->
         <div class="text-center mb-5">
             <span class="sub-title text-uppercase tracking-widest text-white-50 fw-semibold fs-8 d-block mb-2">
                 TRUSTED BY FLYERS WORLDWIDE
             </span>
-            <h2 class="section-title display-5 fw-bold text-white mx-auto heading-font" style="max-width: 800px;">
+            <h2 class="section-title display-5  text-white mx-auto secondary-medium-font" style="max-width: 800px;">
                 A community 50,000 strong and growing with every gust.
             </h2>
         </div>
 
         <!-- 4 Stats Cards Grid -->
         <div class="row g-3 g-md-4 justify-content-center">
-            
+
             <!-- Card 1 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="stat-glass-card p-4 text-center rounded-4 h-100 d-flex flex-column justify-content-center">
-                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">50K<span class="fs-4">+</span></h3>
-                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Happy Customers</p>
+                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">50K<span
+                            class="fs-4">+</span></h3>
+                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Happy
+                        Customers</p>
                 </div>
             </div>
 
             <!-- Card 2 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="stat-glass-card p-4 text-center rounded-4 h-100 d-flex flex-column justify-content-center">
-                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">500<span class="fs-4">+</span></h3>
-                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Premium Products</p>
+                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">500<span
+                            class="fs-4">+</span></h3>
+                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Premium
+                        Products</p>
                 </div>
             </div>
 
             <!-- Card 3 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="stat-glass-card p-4 text-center rounded-4 h-100 d-flex flex-column justify-content-center">
-                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">13<span class="fs-4">+</span></h3>
-                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Years of Wind</p>
+                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">13<span
+                            class="fs-4">+</span></h3>
+                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Years of
+                        Wind</p>
                 </div>
             </div>
 
             <!-- Card 4 -->
             <div class="col-lg-3 col-sm-6">
                 <div class="stat-glass-card p-4 text-center rounded-4 h-100 d-flex flex-column justify-content-center">
-                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">4.9 <span class="fs-5 text-white-50">/5.0</span></h3>
-                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Average Rating</p>
+                    <h3 class="stat-number display-6 fw-bold text-white mb-1 primary-bold-font">4.9 <span
+                            class="fs-5 text-white-50">/5.0</span></h3>
+                    <p class="stat-label text-uppercase text-white-50 fs-8 fw-semibold mb-0 tracking-wider">Average
+                        Rating</p>
                 </div>
             </div>
 
@@ -358,14 +407,14 @@ include 'inc/app.php'; ?>
 <!-- Featured Products Section Start -->
 <section class="featured-products-sec py-5">
     <div class="container py-lg-4">
-        
+
         <!-- Top Header Row -->
         <div class="d-flex flex-wrap align-items-end justify-content-between mb-4 gap-3">
             <div>
                 <span class="sub-title text-uppercase tracking-widest text-cyan fw-bold fs-8 d-block mb-2">
                     FEATURED BEST SELLERS
                 </span>
-                <h2 class="section-title display-5 fw-bold text-white mb-2 heading-font">
+                <h2 class="section-title display-5 fw-bold text-white mb-2 secondary-medium-font">
                     Most loved by flyers.
                 </h2>
                 <p class="text-white-50 fs-7 mb-0 para-font">
@@ -381,24 +430,30 @@ include 'inc/app.php'; ?>
 
         <!-- Main Product Cards Grid -->
         <div class="row g-4">
-            
+
             <!-- Product Card 1 -->
             <div class="col-xl-3 col-lg-4 col-sm-6">
-                <div class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
+                <div
+                    class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
                     <div>
                         <!-- Inner Card Image Slider -->
                         <div class="card-img-slider-wrap position-relative rounded-4 overflow-hidden mb-3">
                             <!-- Discount Badge Overlay -->
-                            <span class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
+                            <span
+                                class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
                                 10% OFF
                             </span>
-                            
+
                             <!-- Inner Slick Slider -->
                             <div class="inner-card-slider">
-                                <div><img src="img/product.png" alt="Delta Kite 1" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product1.png" alt="Delta Kite 2" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product2.png" alt="Delta Kite 3" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product3.png" alt="Delta Kite 4" class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product.png" alt="Delta Kite 1"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product1.png" alt="Delta Kite 2"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product2.png" alt="Delta Kite 3"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product3.png" alt="Delta Kite 4"
+                                        class="img-fluid w-100 card-slide-img"></div>
                             </div>
                         </div>
 
@@ -426,7 +481,8 @@ include 'inc/app.php'; ?>
                             <span class="current-price text-white fw-bold fs-5 primary-bold-font">$57.99</span>
                             <span class="old-price text-white-50 text-decoration-line-through fs-8 ms-1">$66.99</span>
                         </div>
-                        <a href="#" class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
+                        <a href="#"
+                            class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
                             <i class="fa-solid fa-cart-shopping fs-7"></i>
                         </a>
                     </div>
@@ -435,17 +491,23 @@ include 'inc/app.php'; ?>
 
             <!-- Product Card 2 -->
             <div class="col-xl-3 col-lg-4 col-sm-6">
-                <div class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
+                <div
+                    class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
                     <div>
                         <div class="card-img-slider-wrap position-relative rounded-4 overflow-hidden mb-3">
-                            <span class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
+                            <span
+                                class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
                                 10% OFF
                             </span>
                             <div class="inner-card-slider">
-                                  <div><img src="img/product.png" alt="Delta Kite 1" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product1.png" alt="Delta Kite 2" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product2.png" alt="Delta Kite 3" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product3.png" alt="Delta Kite 4" class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product.png" alt="Delta Kite 1"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product1.png" alt="Delta Kite 2"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product2.png" alt="Delta Kite 3"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product3.png" alt="Delta Kite 4"
+                                        class="img-fluid w-100 card-slide-img"></div>
                             </div>
                         </div>
 
@@ -468,7 +530,8 @@ include 'inc/app.php'; ?>
                             <span class="current-price text-white fw-bold fs-5 primary-bold-font">$57.99</span>
                             <span class="old-price text-white-50 text-decoration-line-through fs-8 ms-1">$66.99</span>
                         </div>
-                        <a href="#" class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
+                        <a href="#"
+                            class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
                             <i class="fa-solid fa-cart-shopping fs-7"></i>
                         </a>
                     </div>
@@ -477,17 +540,23 @@ include 'inc/app.php'; ?>
 
             <!-- Product Card 3 -->
             <div class="col-xl-3 col-lg-4 col-sm-6">
-                <div class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
+                <div
+                    class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
                     <div>
                         <div class="card-img-slider-wrap position-relative rounded-4 overflow-hidden mb-3">
-                            <span class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
+                            <span
+                                class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
                                 10% OFF
                             </span>
                             <div class="inner-card-slider">
-                                  <div><img src="img/product.png" alt="Delta Kite 1" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product1.png" alt="Delta Kite 2" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product2.png" alt="Delta Kite 3" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product3.png" alt="Delta Kite 4" class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product.png" alt="Delta Kite 1"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product1.png" alt="Delta Kite 2"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product2.png" alt="Delta Kite 3"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product3.png" alt="Delta Kite 4"
+                                        class="img-fluid w-100 card-slide-img"></div>
                             </div>
                         </div>
 
@@ -510,7 +579,8 @@ include 'inc/app.php'; ?>
                             <span class="current-price text-white fw-bold fs-5 primary-bold-font">$57.99</span>
                             <span class="old-price text-white-50 text-decoration-line-through fs-8 ms-1">$66.99</span>
                         </div>
-                        <a href="#" class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
+                        <a href="#"
+                            class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
                             <i class="fa-solid fa-cart-shopping fs-7"></i>
                         </a>
                     </div>
@@ -519,17 +589,23 @@ include 'inc/app.php'; ?>
 
             <!-- Product Card 4 -->
             <div class="col-xl-3 col-lg-4 col-sm-6">
-                <div class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
+                <div
+                    class="product-card rounded-4 overflow-hidden p-3 h-100 d-flex flex-column justify-content-between">
                     <div>
                         <div class="card-img-slider-wrap position-relative rounded-4 overflow-hidden mb-3">
-                            <span class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
+                            <span
+                                class="discount-badge position-absolute top-0 end-0 m-3 z-3 fs-8 fw-bold text-dark px-2 py-1 rounded-3">
                                 10% OFF
                             </span>
                             <div class="inner-card-slider">
-                                  <div><img src="img/product.png" alt="Delta Kite 1" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product1.png" alt="Delta Kite 2" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product2.png" alt="Delta Kite 3" class="img-fluid w-100 card-slide-img"></div>
-                                <div><img src="img/product3.png" alt="Delta Kite 4" class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product.png" alt="Delta Kite 1"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product1.png" alt="Delta Kite 2"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product2.png" alt="Delta Kite 3"
+                                        class="img-fluid w-100 card-slide-img"></div>
+                                <div><img src="img/product3.png" alt="Delta Kite 4"
+                                        class="img-fluid w-100 card-slide-img"></div>
                             </div>
                         </div>
 
@@ -552,7 +628,8 @@ include 'inc/app.php'; ?>
                             <span class="current-price text-white fw-bold fs-5 primary-bold-font">$57.99</span>
                             <span class="old-price text-white-50 text-decoration-line-through fs-8 ms-1">$66.99</span>
                         </div>
-                        <a href="#" class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
+                        <a href="#"
+                            class="cart-btn rounded-circle d-flex align-items-center justify-content-center text-white text-decoration-none">
                             <i class="fa-solid fa-cart-shopping fs-7"></i>
                         </a>
                     </div>
@@ -571,21 +648,21 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Featured Products Section End -->
- <!-- Kites In The Wild Slider Section Start -->
+<!-- Kites In The Wild Slider Section Start -->
 <section class="wild-kites-sec py-5 overflow-hidden">
     <div class="container py-lg-4">
-        
+
         <!-- Header Row with Dynamic Counter -->
         <div class="d-flex align-items-end justify-content-between mb-4">
             <div>
                 <span class="sub-title text-uppercase tracking-widest text-cyan fw-bold fs-8 d-block mb-2">
                     IN MOTION
                 </span>
-                <h2 class="section-title display-5 fw-bold text-white mb-0 heading-font">
+                <h2 class="section-title display-5 fw-bold text-white mb-0 secondary-medium-font">
                     Kites in the wild.
                 </h2>
             </div>
-            
+
             <!-- Dynamic Counter GSAP Target -->
             <div class="slider-counter text-white-50 fs-7 fw-semibold tracking-wider">
                 <span id="current-slide">01</span> / <span id="total-slides">06</span>
@@ -595,12 +672,13 @@ include 'inc/app.php'; ?>
         <!-- GSAP Slider Wrapper -->
         <div class="gsap-slider-container position-relative">
             <div class="gsap-slider-track d-flex gap-4" id="sliderTrack">
-                
+
                 <!-- Slide 1 -->
                 <div class="wild-slide-item rounded-5 overflow-hidden position-relative flex-shrink-0">
                     <img src="img/family.png" alt="Sunset rituals" class="slide-bg-img">
                     <div class="slide-content p-4 p-md-5 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">BEACH</span>
+                        <span
+                            class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">BEACH</span>
                         <h3 class="slide-title text-white  display-6 mb-0">Sunset rituals on the coast</h3>
                     </div>
                 </div>
@@ -609,7 +687,8 @@ include 'inc/app.php'; ?>
                 <div class="wild-slide-item rounded-5 overflow-hidden position-relative flex-shrink-0">
                     <img src="img/kites-flying-bg.png" alt="Slow motion" class="slide-bg-img">
                     <div class="slide-content p-4 p-md-5 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">BACKYARD</span>
+                        <span
+                            class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">BACKYARD</span>
                         <h3 class="slide-title text-white  display-6 mb-0">Slow motion, high sky</h3>
                     </div>
                 </div>
@@ -618,7 +697,8 @@ include 'inc/app.php'; ?>
                 <div class="wild-slide-item rounded-5 overflow-hidden position-relative flex-shrink-0">
                     <img src="img/family.png" alt="Festival skies" class="slide-bg-img">
                     <div class="slide-content p-4 p-md-5 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">FESTIVAL</span>
+                        <span
+                            class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">FESTIVAL</span>
                         <h3 class="slide-title text-white  display-6 mb-0">Color choreography in wind</h3>
                     </div>
                 </div>
@@ -627,7 +707,8 @@ include 'inc/app.php'; ?>
                 <div class="wild-slide-item rounded-5 overflow-hidden position-relative flex-shrink-0">
                     <img src="img/kites-flying-bg.png" alt="Mountain flight" class="slide-bg-img">
                     <div class="slide-content p-4 p-md-5 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">RIDGE</span>
+                        <span
+                            class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">RIDGE</span>
                         <h3 class="slide-title text-white  display-6 mb-0">Ridge soaring above clouds</h3>
                     </div>
                 </div>
@@ -636,7 +717,8 @@ include 'inc/app.php'; ?>
                 <div class="wild-slide-item rounded-5 overflow-hidden position-relative flex-shrink-0">
                     <img src="img/collection-img2.png" alt="Coastal breeze" class="slide-bg-img">
                     <div class="slide-content p-4 p-md-5 d-flex flex-column justify-content-end">
-                        <span class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">COAST</span>
+                        <span
+                            class="category-tag text-uppercase text-cyan fs-8 fw-bold tracking-wider mb-2">COAST</span>
                         <h3 class="slide-title text-white  display-6 mb-0">Chasing coastal breezes</h3>
                     </div>
                 </div>
@@ -661,40 +743,43 @@ include 'inc/app.php'; ?>
 
             <!-- Optional Nav Arrows -->
             <div class="d-flex gap-2">
-                <button class="nav-btn rounded-circle border-0 text-white" id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
-                <button class="nav-btn rounded-circle border-0 text-white" id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+                <button class="nav-btn rounded-circle border-0 text-white" id="prevBtn"><i
+                        class="fa-solid fa-arrow-left"></i></button>
+                <button class="nav-btn rounded-circle border-0 text-white" id="nextBtn"><i
+                        class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
 
     </div>
 </section>
 <!-- Kites In The Wild Slider Section End -->
- <!-- Bundle Builder Section Start -->
-<section class="bundle-builder-sec py-5">
+<!-- Bundle Builder Section Start -->
+<section class="bundle-builder-sec py-5 position-relative">
+    <div class="position-absolute kite-right-wraaa">
+        <img src="img/kite-group.png" class="img-fluid" alt="">
+    </div>
     <div class="container py-lg-4">
-        
+
         <!-- Main Card Wrapper with 3 Glow Spheres -->
         <div class="bundle-card-wrapper position-relative overflow-hidden rounded-5 p-4 p-md-5">
-            
+
             <!-- 3 Background Ambient Glows -->
             <div class="glow-spot glow-cyan-left"></div>
             <div class="glow-spot glow-orange-top-right"></div>
             <div class="glow-spot glow-purple-bottom-right"></div>
-<div class="position-absolute kite-right-wraaa">
-    <img src="img/kite-fly.png" class="img-fluid" alt="">
-</div>
 
             <!-- Card Content Grid -->
             <div class="row align-items-center g-4 g-lg-5 position-relative z-2">
-                
+
                 <!-- Left Column: Information & Filter Buttons -->
                 <div class="col-lg-6">
                     <div class="bundle-left-info pe-lg-3">
-                        
+
                         <!-- Badge -->
                         <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill tag-badge mb-4">
                             <span class="text-cyan fs-8 fw-bold">#</span>
-                            <span class="text-white-50 fs-8 fw-semibold text-uppercase tracking-wider">BUILD YOUR WIND KIT™</span>
+                            <span class="text-white-50 fs-8 fw-semibold text-uppercase tracking-wider">BUILD YOUR WIND
+                                KIT™</span>
                         </div>
 
                         <!-- Main Title -->
@@ -705,7 +790,8 @@ include 'inc/app.php'; ?>
 
                         <!-- Description -->
                         <p class="text-white-50 fs-7 para-font mb-4 pe-xl-4">
-                            Mix and match a kite, reel, line, tail and bag — pricing updates as you go. Pick four or more and save <strong class="text-warning fw-bold">15%</strong> instantly.
+                            Mix and match a kite, reel, line, tail and bag — pricing updates as you go. Pick four or
+                            more and save <strong class="text-warning fw-bold">15%</strong> instantly.
                         </p>
 
                         <!-- Filter Pill Buttons -->
@@ -721,16 +807,19 @@ include 'inc/app.php'; ?>
                 <!-- Right Column: Interactive Glass Item List -->
                 <div class="col-lg-6">
                     <div class="bundle-glass-panel p-4 p-md-4 rounded-4 position-relative">
-                        
+
                         <!-- Selected Item 1 -->
-                        <div class="bundle-item item-selected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
+                        <div
+                            class="bundle-item item-selected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center gap-3">
-                                <div class="item-check-icon rounded-circle d-flex align-items-center justify-content-center">
+                                <div
+                                    class="item-check-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="fa-solid fa-check fs-8"></i>
                                 </div>
                                 <div>
                                     <h4 class="item-name text-white fs-6 fw-bold mb-0">
-                                        Stunt Kite <span class="badge text-warning bg-transparent border border-warning fs-9 py-0 ms-1 fw-normal">BASE</span>
+                                        Stunt Kite <span
+                                            class="badge text-warning bg-transparent border border-warning fs-9 py-0 ms-1 fw-normal">BASE</span>
                                     </h4>
                                     <span class="item-sub text-white-50 fs-8">Dual-line, 1.8m wingspan</span>
                                 </div>
@@ -739,9 +828,11 @@ include 'inc/app.php'; ?>
                         </div>
 
                         <!-- Selected Item 2 -->
-                        <div class="bundle-item item-selected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
+                        <div
+                            class="bundle-item item-selected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center gap-3">
-                                <div class="item-check-icon rounded-circle d-flex align-items-center justify-content-center">
+                                <div
+                                    class="item-check-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="fa-solid fa-check fs-8"></i>
                                 </div>
                                 <div>
@@ -753,9 +844,11 @@ include 'inc/app.php'; ?>
                         </div>
 
                         <!-- Selected Item 3 -->
-                        <div class="bundle-item item-selected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
+                        <div
+                            class="bundle-item item-selected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center gap-3">
-                                <div class="item-check-icon rounded-circle d-flex align-items-center justify-content-center">
+                                <div
+                                    class="item-check-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="fa-solid fa-check fs-8"></i>
                                 </div>
                                 <div>
@@ -767,9 +860,11 @@ include 'inc/app.php'; ?>
                         </div>
 
                         <!-- Unselected Item 4 -->
-                        <div class="bundle-item item-unselected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
+                        <div
+                            class="bundle-item item-unselected rounded-4 p-3 mb-3 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center gap-3">
-                                <div class="item-plus-icon rounded-circle d-flex align-items-center justify-content-center">
+                                <div
+                                    class="item-plus-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="fa-solid fa-plus fs-8"></i>
                                 </div>
                                 <div>
@@ -781,9 +876,11 @@ include 'inc/app.php'; ?>
                         </div>
 
                         <!-- Unselected Item 5 -->
-                        <div class="bundle-item item-unselected rounded-4 p-3 mb-4 d-flex align-items-center justify-content-between">
+                        <div
+                            class="bundle-item item-unselected rounded-4 p-3 mb-4 d-flex align-items-center justify-content-between">
                             <div class="d-flex align-items-center gap-3">
-                                <div class="item-plus-icon rounded-circle d-flex align-items-center justify-content-center">
+                                <div
+                                    class="item-plus-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="fa-solid fa-plus fs-8"></i>
                                 </div>
                                 <div>
@@ -799,11 +896,13 @@ include 'inc/app.php'; ?>
                         <!-- Pricing Summary Row -->
                         <div class="d-flex align-items-end justify-content-between mb-4">
                             <div>
-                                <span class="text-uppercase text-white-50 fs-8 fw-bold tracking-wider d-block mb-1">SUBTOTAL</span>
+                                <span
+                                    class="text-uppercase text-white-50 fs-8 fw-bold tracking-wider d-block mb-1">SUBTOTAL</span>
                                 <span class="fs-4 fw-bold text-white">$131</span>
                             </div>
                             <div class="text-end">
-                                <span class="text-uppercase text-white-50 fs-8 fw-bold tracking-wider d-block mb-1">YOUR KIT</span>
+                                <span class="text-uppercase text-white-50 fs-8 fw-bold tracking-wider d-block mb-1">YOUR
+                                    KIT</span>
                                 <span class="display-6 fw-bold text-gradient-orange">$131</span>
                             </div>
                         </div>
@@ -822,13 +921,13 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Bundle Builder Section End -->
- <!-- Why Choose Us Section Start -->
+<!-- Why Choose Us Section Start -->
 <section class="why-sky-sec py-5 position-relative overflow-hidden">
     <!-- Top Ambient Lighting Glow -->
     <div class="sky-top-glow position-absolute"></div>
 
     <div class="container py-lg-4 position-relative z-2">
-        
+
         <!-- Section Header -->
         <div class="text-center mb-5">
             <span class="sub-title text-uppercase tracking-widest text-cyan-light fw-semibold fs-8 d-block mb-2">
@@ -844,12 +943,13 @@ include 'inc/app.php'; ?>
 
         <!-- 3x2 Feature Cards Grid -->
         <div class="row g-4">
-            
+
             <!-- Card 1: 13+ years experience -->
             <div class="col-lg-4 col-md-6">
                 <div class="why-feature-card rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
                     <div>
-                        <div class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
+                        <div
+                            class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
                             <i class="fa-solid fa-ribbon fs-7 text-white"></i>
                         </div>
                         <h3 class="card-title text-white fw-bold fs-5 mb-2 primary-bold-font">
@@ -864,9 +964,11 @@ include 'inc/app.php'; ?>
 
             <!-- Card 2: Premium brands (Active / Highlighted Blur Glow) -->
             <div class="col-lg-4 col-md-6">
-                <div class="why-feature-card why-card-active rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
+                <div
+                    class="why-feature-card why-card-active rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
                     <div>
-                        <div class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-orange text-white mb-4">
+                        <div
+                            class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-orange text-white mb-4">
                             <i class="fa-solid fa-wand-magic-sparkles "></i>
                         </div>
                         <h3 class="card-title text-white  fs-5 mb-2 ">
@@ -883,7 +985,8 @@ include 'inc/app.php'; ?>
             <div class="col-lg-4 col-md-6">
                 <div class="why-feature-card rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
                     <div>
-                        <div class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
+                        <div
+                            class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
                             <i class="fa-solid fa-truck-fast fs-7 text-white"></i>
                         </div>
                         <h3 class="card-title text-white  fs-5 mb-2 ">
@@ -900,7 +1003,8 @@ include 'inc/app.php'; ?>
             <div class="col-lg-4 col-md-6">
                 <div class="why-feature-card rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
                     <div>
-                        <div class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
+                        <div
+                            class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
                             <i class="fa-solid fa-shield-halved fs-7 text-white"></i>
                         </div>
                         <h3 class="card-title text-white  fs-5 mb-2 ">
@@ -917,7 +1021,8 @@ include 'inc/app.php'; ?>
             <div class="col-lg-4 col-md-6">
                 <div class="why-feature-card rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
                     <div>
-                        <div class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
+                        <div
+                            class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
                             <i class="fa-solid fa-users-viewfinder fs-7 text-white"></i>
                         </div>
                         <h3 class="card-title text-white  fs-5 mb-2 ">
@@ -934,7 +1039,8 @@ include 'inc/app.php'; ?>
             <div class="col-lg-4 col-md-6">
                 <div class="why-feature-card rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
                     <div>
-                        <div class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
+                        <div
+                            class="card-icon-badge rounded-circle d-flex align-items-center justify-content-center bg-cyan text-dark mb-4">
                             <i class="fa-regular fa-heart fs-7 text-white"></i>
                         </div>
                         <h3 class="card-title text-white  fs-5 mb-2 ">
@@ -952,20 +1058,20 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Why Choose Us Section End -->
- <!-- Sky Community Section Start -->
+<!-- Sky Community Section Start -->
 <section class="sky-community-sec position-relative overflow-hidden py-5">
-    
+
     <!-- Dark Background Image & Overlay -->
     <div class="sky-bg-overlay"></div>
     <img src="img/kites-flying-bg.png" alt="Sky Background" class="sky-bg-img">
 
     <div class="container py-lg-5 position-relative z-2">
         <div class="row align-items-center min-vh-75">
-            
+
             <!-- Left Side Content Column -->
             <div class="col-lg-6 col-xl-7">
                 <div class="community-content pe-xl-4">
-                    
+
                     <!-- Tag Badge -->
                     <div class="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill community-tag mb-4">
                         <i class="fa-solid fa-flag text-cyan fs-8"></i>
@@ -975,32 +1081,37 @@ include 'inc/app.php'; ?>
                     <!-- Main Heading -->
                     <h2 class="display-4 fw-bold text-white mb-3 heading-font">
                         More than a hobby<br>
-                        <span class="text-gradient-orange">A sky-filled community.</span>
+                        <span class=" gradient-text-orange">A sky-filled community.</span>
                     </h2>
 
                     <!-- Subtitle / Description -->
                     <p class="text-white-50 fs-7 para-font mb-4 max-w-500">
-                        From international fly-ins to neighborhood meet-ups, we celebrate every kind of sky. Discover events, competitions and the people who keep the wind alive.
+                        From international fly-ins to neighborhood meet-ups, we celebrate every kind of sky. Discover
+                        events, competitions and the people who keep the wind alive.
                     </p>
 
                     <!-- CTA Buttons -->
                     <div class="d-flex flex-wrap gap-3 mb-5">
-                        <a href="#" class="btn btn-orange-gradient rounded-pill px-4 py-2-5 fw-bold fs-7 d-inline-flex align-items-center gap-2">
+                        <a href="#"
+                            class="btn extra-color-8 rounded-pill px-4 py-2-5 fw-bold fs-7 d-inline-flex align-items-center gap-2">
                             Explore festivals <i class="fa-solid fa-arrow-right fs-8"></i>
                         </a>
-                        <a href="#" class="btn btn-glass-map rounded-pill px-4 py-2-5 fw-medium fs-7 text-white d-inline-flex align-items-center gap-2">
+                        <a href="#"
+                            class="btn btn-glass-map rounded-pill px-4 py-2-5 fw-medium fs-7 text-white d-inline-flex align-items-center gap-2">
                             <i class="fa-solid fa-location-dot text-cyan fs-8"></i> Festival map
                         </a>
                     </div>
 
                     <!-- 4 Glassmorphism Stats Cards -->
                     <div class="row g-3">
-                        
+
                         <!-- Stat 1 -->
                         <div class="col-6 col-sm-3">
                             <div class="stat-glass-card p-3 rounded-4">
                                 <h3 class="stat-number text-white fw-bold fs-4 mb-1">120+</h3>
-                                <span class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">FESTIVALS TRACKED</span>
+                                <span
+                                    class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">FESTIVALS
+                                    TRACKED</span>
                             </div>
                         </div>
 
@@ -1008,7 +1119,8 @@ include 'inc/app.php'; ?>
                         <div class="col-6 col-sm-3">
                             <div class="stat-glass-card p-3 rounded-4">
                                 <h3 class="stat-number text-white fw-bold fs-4 mb-1">32</h3>
-                                <span class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">COUNTRIES</span>
+                                <span
+                                    class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">COUNTRIES</span>
                             </div>
                         </div>
 
@@ -1016,7 +1128,9 @@ include 'inc/app.php'; ?>
                         <div class="col-6 col-sm-3">
                             <div class="stat-glass-card p-3 rounded-4">
                                 <h3 class="stat-number text-white fw-bold fs-4 mb-1">8</h3>
-                                <span class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">MAJOR FLY-INS / YR</span>
+                                <span
+                                    class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">MAJOR
+                                    FLY-INS / YR</span>
                             </div>
                         </div>
 
@@ -1024,7 +1138,9 @@ include 'inc/app.php'; ?>
                         <div class="col-6 col-sm-3">
                             <div class="stat-glass-card p-3 rounded-4">
                                 <h3 class="stat-number text-white fw-bold fs-4 mb-1">1M+</h3>
-                                <span class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">KITES IN THE SKY</span>
+                                <span
+                                    class="stat-label text-uppercase text-white-50 fs-9 tracking-wider fw-semibold d-block">KITES
+                                    IN THE SKY</span>
                             </div>
                         </div>
 
@@ -1038,7 +1154,8 @@ include 'inc/app.php'; ?>
                 <div class="right-kites-wrapper ">
 
                     <!-- Kite 1: Red (Left Floating) -->
-                    <img src="img/three-kite.png" alt="Red Kite" class="floating-kite kite-red  position-absolute-kite-wraaa">
+                    <img src="img/three-kite.png" alt="Red Kite"
+                        class="floating-kite kite-red  position-absolute-kite-wraaa">
 
                 </div>
             </div>
@@ -1047,10 +1164,10 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Sky Community Section End -->
- <!-- Adventure Timeline Section Start -->
+<!-- Adventure Timeline Section Start -->
 <section class="timeline-sec py-5 position-relative overflow-hidden" id="timelineSec">
     <div class="container py-lg-5">
-        
+
         <!-- Header -->
         <div class="text-center mb-5">
             <span class="sub-title text-uppercase tracking-widest text-cyan fw-bold fs-8 d-block mb-2">
@@ -1066,7 +1183,7 @@ include 'inc/app.php'; ?>
 
         <!-- Horizontal Timeline Wrapper -->
         <div class="timeline-wrapper position-relative my-5 pt-3">
-            
+
             <!-- GSAP Animated Connecting Line -->
             <div class="timeline-line-bg position-absolute">
                 <div class="timeline-line-progress position-absolute" id="timelineProgress"></div>
@@ -1074,15 +1191,16 @@ include 'inc/app.php'; ?>
 
             <!-- Timeline Nodes Container -->
             <div class="row g-4 justify-content-between position-relative z-2">
-                
+
                 <!-- Node 1 -->
                 <div class="col-6 col-md-2-4 timeline-node">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <div class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
+                        <div
+                            class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
                             <i class="fa-solid fa-compass text-cyan fs-5"></i>
                             <span class="node-badge-dot position-absolute"></span>
                         </div>
-                        <h3 class="node-title text-white fw-bold fs-6 mb-2">Choose A Kite</h3>
+                        <h3 class="node-title text-white  fs-6 mb-2">Choose A Kite</h3>
                         <p class="node-desc text-white-50 fs-8 mb-0">From classic deltas to pro stunt rigs.</p>
                     </div>
                 </div>
@@ -1090,11 +1208,12 @@ include 'inc/app.php'; ?>
                 <!-- Node 2 -->
                 <div class="col-6 col-md-2-4 timeline-node">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <div class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
+                        <div
+                            class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
                             <i class="fa-solid fa-wind text-cyan fs-5"></i>
                             <span class="node-badge-dot position-absolute"></span>
                         </div>
-                        <h3 class="node-title text-white fw-bold fs-6 mb-2">Find Wind</h3>
+                        <h3 class="node-title text-white  fs-6 mb-2">Find Wind</h3>
                         <p class="node-desc text-white-50 fs-8 mb-0">Beach, park, ridge — wherever it blows.</p>
                     </div>
                 </div>
@@ -1102,11 +1221,12 @@ include 'inc/app.php'; ?>
                 <!-- Node 3 -->
                 <div class="col-6 col-md-2-4 timeline-node">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <div class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
-                            <i class="fa-solid fa-sparkles text-cyan fs-5"></i>
+                        <div
+                            class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
+                            <img src="img/sparker.png" class="img-fluid" alt="">
                             <span class="node-badge-dot position-absolute"></span>
                         </div>
-                        <h3 class="node-title text-white fw-bold fs-6 mb-2">Take Flight</h3>
+                        <h3 class="node-title text-white  fs-6 mb-2">Take Flight</h3>
                         <p class="node-desc text-white-50 fs-8 mb-0">Launch, climb, settle into the lift.</p>
                     </div>
                 </div>
@@ -1114,11 +1234,12 @@ include 'inc/app.php'; ?>
                 <!-- Node 4 -->
                 <div class="col-6 col-md-2-4 timeline-node">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <div class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
+                        <div
+                            class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
                             <i class="fa-solid fa-ribbon text-cyan fs-5"></i>
                             <span class="node-badge-dot position-absolute"></span>
                         </div>
-                        <h3 class="node-title text-white fw-bold fs-6 mb-2">Master Tricks</h3>
+                        <h3 class="node-title text-white  fs-6 mb-2">Master Tricks</h3>
                         <p class="node-desc text-white-50 fs-8 mb-0">Loops, dives, choreographed runs.</p>
                     </div>
                 </div>
@@ -1126,11 +1247,12 @@ include 'inc/app.php'; ?>
                 <!-- Node 5 -->
                 <div class="col-6 col-md-2-4 timeline-node">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <div class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
+                        <div
+                            class="node-icon-box position-relative d-flex align-items-center justify-content-center bg-white mb-4">
                             <i class="fa-solid fa-flag text-cyan fs-5"></i>
                             <span class="node-badge-dot position-absolute"></span>
                         </div>
-                        <h3 class="node-title text-white fw-bold fs-6 mb-2">Join Festivals</h3>
+                        <h3 class="node-title text-white  fs-6 mb-2">Join Festivals</h3>
                         <p class="node-desc text-white-50 fs-8 mb-0">Fly with thousands under one sky.</p>
                     </div>
                 </div>
@@ -1141,15 +1263,15 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Adventure Timeline Section End -->
- <!-- Windsocks & Wind Art Hero Section Start -->
+<!-- Windsocks & Wind Art Hero Section Start -->
 <section class="wind-art-sec py-5 position-relative overflow-hidden">
     <div class="container py-lg-5">
         <div class="row align-items-center g-4 g-lg-5">
-            
+
             <!-- Left Side Content Column -->
             <div class="col-lg-6">
                 <div class="wind-art-content pe-xl-3">
-                    
+
                     <!-- Subtitle -->
                     <span class="sub-title text-uppercase tracking-widest text-cyan fw-bold fs-8 d-block mb-3">
                         WINDSOCKS & WIND ART
@@ -1158,12 +1280,13 @@ include 'inc/app.php'; ?>
                     <!-- Heading -->
                     <h2 class="display-4 fw-bold text-white mb-3 heading-font">
                         Wind,<br>
-                        made <span class="text-gradient-orange">beautiful.</span>
+                        made <span class="text-gradient-orange111">beautiful.</span>
                     </h2>
 
                     <!-- Paragraph -->
                     <p class="text-white-50 fs-7 para-font mb-4 max-w-480">
-                        Our windsocks, garden spinners and windmills bring slow, hypnotic motion to any outdoor space. Hand-finished, weatherproof, built to spin for seasons.
+                        Our windsocks, garden spinners and windmills bring slow, hypnotic motion to any outdoor space.
+                        Hand-finished, weatherproof, built to spin for seasons.
                     </p>
 
                     <!-- Buttons -->
@@ -1182,12 +1305,14 @@ include 'inc/app.php'; ?>
             <!-- Right Side Image Column -->
             <div class="col-lg-6">
                 <div class="wind-art-img-wrapper position-relative rounded-5 overflow-hidden">
-                    
+
                     <!-- Main Showcase Image -->
-                    <img src="img/wind-art-garden.jpg" alt="Garden Wind Art" class="w-100 h-100 object-fit-cover d-block">
+                    <img src="img/madewind1.png" alt="Garden Wind Art"
+                        class="w-100 h-100 object-fit-cover d-block">
 
                     <!-- Floating Top Right Wind Badge Icon -->
-                    <div class="wind-floating-badge rounded-circle d-flex align-items-center justify-content-center position-absolute shadow-sm">
+                    <div
+                        class="wind-floating-badge rounded-circle d-flex align-items-center justify-content-center position-absolute shadow-sm">
                         <i class="fa-solid fa-wind text-cyan fs-6"></i>
                     </div>
 
@@ -1198,23 +1323,23 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Windsocks & Wind Art Hero Section End -->
- <!-- Testimonial Section Start -->
+<!-- Testimonial Section Start -->
 <section class="flyer-stories-sec py-5 position-relative overflow-hidden">
     <div class="container py-lg-5">
         <div class="row align-items-center g-4 g-lg-5">
-            
+
             <!-- Left Side Dual Art Cards Column -->
             <div class="col-lg-6">
-                <div class="d-flex gap-3 gap-md-4 align-items-center justify-content-center">
-                    
+                <div class="d-flex gap-2 gap-md-2 align-items-center justify-content-center">
+
                     <!-- Left Artwork Card (Shifted Down) -->
                     <div class="art-card art-card-left rounded-5 overflow-hidden shadow-lg">
-                        <img src="img/art-sky-clouds.jpg" alt="Sky Artwork" class="w-100 h-100 object-fit-cover">
+                        <img src="img/whatfly1.png" alt="Sky Artwork" class="w-100 h-100 object-fit-cover">
                     </div>
 
                     <!-- Right Artwork Card (Shifted Up) -->
                     <div class="art-card art-card-right rounded-5 overflow-hidden shadow-lg">
-                        <img src="img/art-kite-pattern.jpg" alt="Pattern Artwork" class="w-100 h-100 object-fit-cover">
+                        <img src="img/whatfly.png" alt="Pattern Artwork" class="w-100 h-100 object-fit-cover">
                     </div>
 
                 </div>
@@ -1223,7 +1348,7 @@ include 'inc/app.php'; ?>
             <!-- Right Side Testimonial Carousel Column -->
             <div class="col-lg-6">
                 <div class="testimonial-content-wrapper ps-xl-3">
-                    
+
                     <!-- Section Header -->
                     <span class="sub-title text-uppercase tracking-widest text-cyan fw-bold fs-8 d-block mb-2">
                         CUSTOMER STORIES
@@ -1235,21 +1360,22 @@ include 'inc/app.php'; ?>
                     <!-- Bootstrap Carousel / Testimonial Slider -->
                     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            
+
                             <!-- Slide 1 -->
                             <div class="carousel-item active">
                                 <div class="testimonial-card position-relative">
-                                    
+
                                     <!-- User Info & Quote Icon Row -->
                                     <div class="d-flex align-items-center justify-content-between mb-3">
                                         <div class="d-flex align-items-center gap-3">
-                                            <img src="img/user-avatar.jpg" alt="John Walker" class="user-avatar rounded-circle border border-2 border-cyan">
+                                            <img src="img/avatar.png" alt="John Walker"
+                                                class="user-avatar rounded-circle border border-2 border-cyan">
                                             <div>
                                                 <h4 class="user-name text-white fs-6 fw-bold mb-0">John Walker</h4>
                                                 <span class="user-tag text-white-50 fs-8">Kites</span>
                                             </div>
                                         </div>
-                                        
+
                                         <!-- Orange Dual Quote Icon (Font Awesome 6) -->
                                         <div class="quote-icon text-orange display-6">
                                             <i class="fa-solid fa-quote-right"></i>
@@ -1257,20 +1383,22 @@ include 'inc/app.php'; ?>
                                     </div>
 
                                     <!-- Headline & Review Body -->
-                                    <h3 class="review-title text-white fs-6 fw-bold mb-2">
+                                    <h3 class="review-title text-white fs-6  mb-2">
                                         Parents + Families Kids Kites Lover
                                     </h3>
                                     <p class="review-text text-white-50 fs-7 para-font mb-3">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                     </p>
 
                                     <!-- Font Awesome 6 Rating Stars -->
                                     <div class="star-rating d-flex gap-1 mb-4 text-orange">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
                                     </div>
 
                                 </div>
@@ -1281,7 +1409,8 @@ include 'inc/app.php'; ?>
                                 <div class="testimonial-card position-relative">
                                     <div class="d-flex align-items-center justify-content-between mb-3">
                                         <div class="d-flex align-items-center gap-3">
-                                            <img src="img/user-avatar-2.jpg" alt="Sarah Jenkins" class="user-avatar rounded-circle border border-2 border-cyan">
+                                            <img src="img/avatar.png" alt="Sarah Jenkins"
+                                                class="user-avatar rounded-circle border border-2 border-cyan">
                                             <div>
                                                 <h4 class="user-name text-white fs-6 fw-bold mb-0">Sarah Jenkins</h4>
                                                 <span class="user-tag text-white-50 fs-8">Festival Flyer</span>
@@ -1291,18 +1420,19 @@ include 'inc/app.php'; ?>
                                             <i class="fa-solid fa-quote-right"></i>
                                         </div>
                                     </div>
-                                    <h3 class="review-title text-white fs-6 fw-bold mb-2">
+                                    <h3 class="review-title text-white fs-6  mb-2">
                                         Unmatched Craftsmanship & Flight Control
                                     </h3>
                                     <p class="review-text text-white-50 fs-7 para-font mb-3">
-                                        The wind response and build quality are phenomenal. Every festival trip with these kites turns heads. Absolutely recommended for beginners and experts alike!
+                                        The wind response and build quality are phenomenal. Every festival trip with
+                                        these kites turns heads. Absolutely recommended for beginners and experts alike!
                                     </p>
                                     <div class="star-rating d-flex gap-1 mb-4 text-orange">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
+                                        <i class="fa-solid fa-star extra-color-11"></i>
                                     </div>
                                 </div>
                             </div>
@@ -1311,23 +1441,26 @@ include 'inc/app.php'; ?>
 
                         <!-- Carousel Controls (Optional Dots/Indicators) -->
                         <div class="carousel-indicators position-relative justify-content-start m-0 mb-4">
-                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                class="active" aria-current="true"></button>
                             <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
                         </div>
                     </div>
 
                     <!-- Bottom White Glass Satisfaction Stat Badge -->
-                    <div class="stat-satisfaction-pill bg-white rounded-5 p-3 p-md-3-5 text-dark d-inline-flex align-items-center justify-content-between w-100 max-w-450 shadow-lg">
+                    <div
+                        class="stat-satisfaction-pill bg-white rounded-5 p-3 p-md-3-5 text-dark d-inline-flex align-items-center justify-content-between w-100 max-w-450 shadow-lg">
                         <div>
                             <h3 class="stat-value fw-bold fs-4 mb-0 text-dark">99% Satisfied</h3>
-                            <p class="stat-desc text-muted fs-8 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <p class="stat-desc text-muted fs-8 mb-0">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing.</p>
                         </div>
-                        
+
                         <!-- Avatar Overlap Stack -->
                         <div class="avatar-group d-flex align-items-center ms-3">
-                            <img src="img/user-1.jpg" alt="User" class="stack-avatar rounded-circle">
-                            <img src="img/user-2.jpg" alt="User" class="stack-avatar rounded-circle">
-                            <img src="img/user-3.jpg" alt="User" class="stack-avatar rounded-circle">
+                            <img src="img/avatar.png" alt="User" class="stack-avatar rounded-circle">
+                            <img src="img/avatar1.png" alt="User" class="stack-avatar rounded-circle">
+                            <img src="img/avatar2.png" alt="User" class="stack-avatar rounded-circle">
                         </div>
                     </div>
 
@@ -1338,10 +1471,10 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Testimonial Section End -->
- <!-- Community Gallery Section Start -->
+<!-- Community Gallery Section Start -->
 <section class="community-gallery-sec py-5 position-relative overflow-hidden">
     <div class="container py-lg-5">
-        
+
         <!-- Section Header -->
         <div class="text-center mb-5">
             <span class="sub-title text-uppercase tracking-widest text-cyan fw-bold fs-8 d-block mb-2">
@@ -1357,40 +1490,40 @@ include 'inc/app.php'; ?>
 
         <!-- Custom Gallery Layout Grid -->
         <div class="community-grid-container">
-            
+
             <!-- Left Tall Card -->
             <div class="gallery-item item-tall-left rounded-5 overflow-hidden shadow-lg">
-                <img src="img/gallery-1.jpg" alt="Kites on beach sunset" class="gallery-img">
+                <img src="img/shopkite3.png" alt="Kites on beach sunset" class="gallery-img">
                 <div class="gallery-hover-overlay"></div>
             </div>
 
             <!-- Middle Grid Top Left -->
             <div class="gallery-item item-mid-1 rounded-5 overflow-hidden shadow-lg">
-                <img src="img/gallery-2.jpg" alt="Kite festival crowd" class="gallery-img">
+                <img src="img/shopkite2.png" alt="Kite festival crowd" class="gallery-img">
                 <div class="gallery-hover-overlay"></div>
             </div>
 
             <!-- Middle Grid Top Right -->
             <div class="gallery-item item-mid-2 rounded-5 overflow-hidden shadow-lg">
-                <img src="img/gallery-3.jpg" alt="Garden spinners" class="gallery-img">
+                <img src="img/shopkite1.png" alt="Garden spinners" class="gallery-img">
                 <div class="gallery-hover-overlay"></div>
             </div>
 
             <!-- Middle Grid Bottom Left -->
             <div class="gallery-item item-mid-3 rounded-5 overflow-hidden shadow-lg">
-                <img src="img/gallery-4.jpg" alt="Kids running on beach" class="gallery-img">
+                <img src="img/shopkite.png" alt="Kids running on beach" class="gallery-img">
                 <div class="gallery-hover-overlay"></div>
             </div>
 
             <!-- Middle Grid Bottom Right -->
             <div class="gallery-item item-mid-4 rounded-5 overflow-hidden shadow-lg">
-                <img src="img/gallery-5.jpg" alt="Sunrise kite flying" class="gallery-img">
+                <img src="img/shopkite3.png" alt="Sunrise kite flying" class="gallery-img">
                 <div class="gallery-hover-overlay"></div>
             </div>
 
             <!-- Right Tall Card -->
             <div class="gallery-item item-tall-right rounded-5 overflow-hidden shadow-lg">
-                <img src="img/gallery-6.jpg" alt="Cyan sky kite flight" class="gallery-img">
+                <img src="img/shopkite3.png" alt="Cyan sky kite flight" class="gallery-img">
                 <div class="gallery-hover-overlay"></div>
             </div>
 
@@ -1399,10 +1532,10 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Community Gallery Section End -->
- <!-- Learning Hub Section Start -->
+<!-- Learning Hub Section Start -->
 <section class="learning-hub-sec py-5 position-relative overflow-hidden" id="learningHubSec">
     <div class="container py-lg-5">
-        
+
         <!-- Header -->
         <div class="text-center mb-5">
             <span class="sub-title text-uppercase tracking-widest text-cyan fw-bold fs-8 d-block mb-2">
@@ -1418,21 +1551,23 @@ include 'inc/app.php'; ?>
 
         <!-- 4 Column Cards Row -->
         <div class="row g-4 justify-content-center">
-            
+
             <!-- Card 1 -->
             <div class="col-12 col-sm-6 col-lg-3 hub-card-col">
                 <div class="hub-card p-4 rounded-4 position-relative d-flex flex-column h-100">
                     <span class="hub-tag text-uppercase text-cyan fw-bold fs-9 mb-3 d-block">
                         START HERE
                     </span>
-                    <div class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
+                    <div
+                        class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
                         <i class="fa-solid fa-graduation-cap text-dark fs-6"></i>
                     </div>
                     <h3 class="hub-title text-white fw-bold fs-6 mb-2">Beginner's Guide</h3>
                     <p class="hub-desc text-white-50 fs-8 mb-4 flex-grow-1">
                         Pick your first kite, learn launch basics, fly safe.
                     </p>
-                    <a href="#" class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
+                    <a href="#"
+                        class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
                         Read guide <i class="fa-solid fa-arrow-right fs-9 link-arrow"></i>
                     </a>
                 </div>
@@ -1444,14 +1579,16 @@ include 'inc/app.php'; ?>
                     <span class="hub-tag text-uppercase text-cyan fw-bold fs-9 mb-3 d-block">
                         CONDITIONS
                     </span>
-                    <div class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
+                    <div
+                        class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
                         <i class="fa-solid fa-wind text-dark fs-6"></i>
                     </div>
                     <h3 class="hub-title text-white fw-bold fs-6 mb-2">Best Wind Conditions</h3>
                     <p class="hub-desc text-white-50 fs-8 mb-4 flex-grow-1">
                         How to read wind, weather and beach forecasts.
                     </p>
-                    <a href="#" class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
+                    <a href="#"
+                        class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
                         Read guide <i class="fa-solid fa-arrow-right fs-9 link-arrow"></i>
                     </a>
                 </div>
@@ -1463,14 +1600,16 @@ include 'inc/app.php'; ?>
                     <span class="hub-tag text-uppercase text-cyan fw-bold fs-9 mb-3 d-block">
                         TECHNIQUE
                     </span>
-                    <div class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
+                    <div
+                        class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
                         <i class="fa-solid fa-wand-magic-sparkles text-dark fs-6"></i>
                     </div>
                     <h3 class="hub-title text-white fw-bold fs-6 mb-2">Stunt Tricks 101</h3>
                     <p class="hub-desc text-white-50 fs-8 mb-4 flex-grow-1">
                         Loops, dives and figure-8s explained step by step.
                     </p>
-                    <a href="#" class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
+                    <a href="#"
+                        class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
                         Read guide <i class="fa-solid fa-arrow-right fs-9 link-arrow"></i>
                     </a>
                 </div>
@@ -1482,14 +1621,16 @@ include 'inc/app.php'; ?>
                     <span class="hub-tag text-uppercase text-cyan fw-bold fs-9 mb-3 d-block">
                         TRAVEL
                     </span>
-                    <div class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
+                    <div
+                        class="hub-icon-box rounded-circle bg-white d-flex align-items-center justify-content-center mb-4">
                         <i class="fa-solid fa-calendar-days text-dark fs-6"></i>
                     </div>
                     <h3 class="hub-title text-white fw-bold fs-6 mb-2">Festival Prep</h3>
                     <p class="hub-desc text-white-50 fs-8 mb-4 flex-grow-1">
                         What to pack, where to go, how to fly in formation.
                     </p>
-                    <a href="#" class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
+                    <a href="#"
+                        class="hub-link text-white text-decoration-none fs-8 fw-semibold d-inline-flex align-items-center gap-2">
                         Read guide <i class="fa-solid fa-arrow-right fs-9 link-arrow"></i>
                     </a>
                 </div>
@@ -1500,19 +1641,20 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Learning Hub Section End -->
- <!-- Newsletter Banner Section Start -->
+<!-- Newsletter Banner Section Start -->
 <section class="newsletter-banner-sec py-5 position-relative overflow-hidden" id="newsletterSec">
     <div class="container py-lg-4">
-        
+
         <!-- Centered Banner Card with Background Image -->
-        <div class="newsletter-card position-relative rounded-5 overflow-hidden shadow-lg mx-auto py-5 px-4 px-md-5 text-center">
-            
+        <div
+            class="newsletter-card position-relative rounded-5 overflow-hidden shadow-lg mx-auto py-5 px-4 px-md-5 text-center">
+
             <!-- Soft Overlay for Content Readability -->
             <div class="card-bg-overlay position-absolute top-0 start-0 w-100 h-100"></div>
 
             <!-- Card Content Content Wrapper -->
             <div class="newsletter-content position-relative z-2 py-md-3">
-                
+
                 <!-- Envelope Icon -->
                 <div class="mail-icon-box mb-3 d-inline-block">
                     <i class="fa-regular fa-envelope fs-4 text-navy"></i>
@@ -1529,13 +1671,18 @@ include 'inc/app.php'; ?>
                 </p>
 
                 <!-- Input & Subscribe Form -->
-                <form class="newsletter-form d-flex flex-column flex-sm-row justify-content-center align-items-center gap-2 max-w-500 mx-auto" onsubmit="event.preventDefault();">
-                    
+                <form
+                    class="newsletter-form d-flex flex-column flex-sm-row justify-content-center align-items-center gap-2 max-w-500 mx-auto"
+                    onsubmit="event.preventDefault();">
+
                     <div class="input-wrapper w-100">
-                        <input type="email" class="form-control form-control-lg rounded-pill px-4 text-center text-sm-start fs-7" placeholder="you@windyemail.com" required>
+                        <input type="email"
+                            class="form-control form-control-lg rounded-pill px-4 text-center text-sm-start fs-7"
+                            placeholder="you@windyemail.com" required>
                     </div>
 
-                    <button type="submit" class="btn btn-navy-pill rounded-pill px-4 py-2-5 fw-semibold fs-7 text-nowrap w-100 w-sm-auto">
+                    <button type="submit"
+                        class="btn btn-navy-pill rounded-pill px-4 py-2-5 fw-semibold fs-7 text-nowrap w-100 w-sm-auto">
                         Subscribe
                     </button>
 
@@ -1564,7 +1711,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentSlideText = document.getElementById("current-slide");
     const totalSlidesText = document.getElementById("total-slides");
     const progressFill = document.getElementById("progressFill");
-    
+
     const totalSlides = slides.length;
     let currentIndex = 0;
 
@@ -1587,14 +1734,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 overwrite: "auto"
             });
         } else {
-            gsap.set(track, { x: moveX });
+            gsap.set(track, {
+                x: moveX
+            });
         }
 
         const formattedIndex = (currentIndex + 1) < 10 ? `0${currentIndex + 1}` : (currentIndex + 1);
         currentSlideText.textContent = formattedIndex;
 
         const progressPercentage = ((currentIndex + 1) / totalSlides) * 100;
-        gsap.to(progressFill, { width: `${progressPercentage}%`, duration: 0.3, overwrite: "auto" });
+        gsap.to(progressFill, {
+            width: `${progressPercentage}%`,
+            duration: 0.3,
+            overwrite: "auto"
+        });
     }
 
     // Draggable Configuration optimized for smoothness

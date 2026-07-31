@@ -632,7 +632,7 @@ a.btn.wrapper-cartbest {
    ============================================================ */
 
 .wild-kites-sec {
-    background-color: var(--body-color, #030812);
+    background-color: #00193E;
 }
 
 .text-cyan {
@@ -744,9 +744,11 @@ a.btn.wrapper-cartbest {
 
 /* Outer Main Card Container */
 .bundle-card-wrapper {
-    background-color: #080f21;
     border: 1px solid rgba(255, 255, 255, 0.08);
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    background: #0F194C;
+    background: linear-gradient(168deg, rgba(15, 25, 76, 1) 0%, #212529 50%, #030812 100%);
+    border-radius: 30px;
 }
 
 /* Arc Decoration SVG */
@@ -793,9 +795,9 @@ a.btn.wrapper-cartbest {
 .glow-purple-bottom-right {
     bottom: -100px;
     right: -80px;
-    width: 610px;
-    height: 600px;
-    background: #570069;
+    width: 520px;
+    height: 450px;
+    background: #570069b8;
 }
 
 /* Tag Badge */
@@ -849,7 +851,7 @@ a.btn.wrapper-cartbest {
    ============================================================ */
 
 .bundle-glass-panel {
-    background: #f8f9fa24;
+    background: #202f4aa3;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -862,7 +864,7 @@ a.btn.wrapper-cartbest {
 .bundle-item.item-selected {
     background: #f8f9fa4a;
     border: 1px solid rgba(34, 211, 238, 0.4);
-    box-shadow: 0 0 55px #f8f9fa70;
+    box-shadow: 0 0 55px #22d3ee5e;
     border-radius: 20px;
 }
 
@@ -902,9 +904,10 @@ a.btn.wrapper-cartbest {
     display: inline-block;
 }
 .position-absolute.kite-right-wraaa {
-    width: 380px;
-    left: -20px;
-    top: 140px;
+    width: 50%;
+    left: -13px;
+    top: -150px;
+    z-index: 11;
 }
 /* ////////////////////////////////// */
 /* ============================================================
@@ -922,8 +925,8 @@ a.btn.wrapper-cartbest {
     transform: translateX(-50%);
     width: 100%;
     height: 45%;
-    background: #0d6efd66;
-    filter: blur(50px);
+    background: #1b4760;
+    filter: blur(19px);
     pointer-events: none;
     z-index: 1;
 }
@@ -956,12 +959,7 @@ a.btn.wrapper-cartbest {
 
 /* Active Highlighted Card Styling */
 .why-feature-card.why-card-active {
-    background: linear-gradient(
-        135deg, 
-        rgba(30, 60, 90, 0.7) 0%, 
-        rgba(22, 33, 52, 0.8) 50%, 
-        rgba(80, 45, 40, 0.5) 100%
-    );
+    background: linear-gradient(135deg, #22d3ee75 0%, rgb(22 33 52) 50%, rgb(80 45 40 / 52%) 100%);
     border: 1px solid rgba(56, 189, 248, 0.4);
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3), inset 0 0 20px rgba(255, 120, 70, 0.15);
 }
@@ -1036,12 +1034,7 @@ a.btn.wrapper-cartbest {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-        90deg, 
-        rgba(3, 8, 18, 0.95) 0%, 
-        rgba(3, 8, 18, 0.75) 50%, 
-        rgba(3, 8, 18, 0.5) 100%
-    );
+    background: #00193eab;
     z-index: 1;
 }
 
@@ -1224,14 +1217,16 @@ a.btn.wrapper-cartbest {
 }
 
 .timeline-line-bg {
-    top: 36px; /* Icon Box ke Center line alignment ke hisab se */
+    top: 52px;
     left: 10%;
     right: 10%;
     height: 2px;
     background-color: rgba(255, 255, 255, 0.1);
     z-index: 1;
+    background: #5AD3FF;
+    background: linear-gradient(90deg, rgba(90, 211, 255, 1) 0%, rgba(0, 155, 190, 0.88) 50%, rgba(255, 117, 39, 1) 100%);
+    opacity: 0.3;
 }
-
 .timeline-line-progress {
     top: 0;
     left: 0;
@@ -1273,15 +1268,15 @@ a.btn.wrapper-cartbest {
    ============================================================ */
 
 .wind-art-sec {
-    background-color: var(--body-color, #030812);
+    background-color: #00193E;
 }
 
 .text-cyan {
     color: #22d3ee;
 }
 
-.text-gradient-orange {
-    background: linear-gradient(90deg, #ff7a59 0%, #ff5e3a 100%);
+.text-gradient-orange111 {
+    background: #FF7527;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1301,7 +1296,7 @@ a.btn.wrapper-cartbest {
 
 /* Button Custom Styles */
 .btn-cyan-pill {
-    background-color: #00acc1;
+    background: #00acc1 !important;
     color: #ffffff;
     border: none;
     transition: all 0.3s ease;
@@ -1315,7 +1310,7 @@ a.btn.wrapper-cartbest {
 }
 
 .btn-white-pill {
-    background-color: #ffffff;
+    background: #ffffff !important;
     border: none;
     transition: all 0.3s ease;
 }
@@ -1328,11 +1323,17 @@ a.btn.wrapper-cartbest {
 
 /* Right Side Image & Floating Badge */
 .wind-art-img-wrapper {
-    max-height: 440px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 40px #22d3ee2b;
 }
-
+.wind-art-img-wrapper {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px #22d3ee2b;
+    border-radius: 20px;
+}
+.wind-art-img-wrapper img {
+    border-radius: 20px;
+}
 .wind-floating-badge {
     top: 24px;
     right: 24px;
@@ -1379,9 +1380,8 @@ a.btn.wrapper-cartbest {
 
 /* Dual Art Cards Layout */
 .art-card {
-    width: 220px;
-    height: 440px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 270px;
+    height: 540px;
     transition: transform 0.4s ease;
 }
 
@@ -1391,7 +1391,7 @@ a.btn.wrapper-cartbest {
 }
 
 .art-card-right {
-    transform: translateY(-20px);
+    transform: translateY(-49px);
 }
 
 .art-card:hover {
@@ -1427,11 +1427,22 @@ a.btn.wrapper-cartbest {
 }
 
 /* Bottom White Satisfaction Pill Badge */
-.stat-satisfaction-pill {
+.quote-icon .stat-satisfaction-pill {
     background-color: #ffffff !important;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
 }
-
+.stat-satisfaction-pill {
+    border-radius: 40px;
+}
+i.fa-solid.fa-quote-right {
+    background: linear-gradient(90deg, #FF993F 0%, #FF5A4E 100%);
+    background: linear-gradient(90deg, #FF993F 0%, #FF5A4E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
 .stat-value {
     color: #030812;
     letter-spacing: -0.5px;
@@ -1523,6 +1534,7 @@ a.btn.wrapper-cartbest {
     border: 1px solid rgba(255, 255, 255, 0.1);
     background-color: #0e1726;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .gallery-img {
@@ -1596,7 +1608,7 @@ a.btn.wrapper-cartbest {
    ============================================================ */
 
 .learning-hub-sec {
-    background-color: var(--body-color, #030812);
+    background-color: #00193E;
 }
 
 .text-cyan {
@@ -1688,7 +1700,7 @@ a.btn.wrapper-cartbest {
 
 /* Outer Banner Card with Custom Background Image */
 .newsletter-card {
-    background-image: url('img/sky-kites-bg.jpg'); /* Aapki sky + kites wali background image ka path */
+    background-image: url('../img/newslatter.png'); /* Aapki sky + kites wali background image ka path */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1698,7 +1710,7 @@ a.btn.wrapper-cartbest {
 
 /* Soft Radial/Gradient Light Overlay */
 .card-bg-overlay {
-    background: radial-gradient(circle, rgba(224, 242, 254, 0.65) 0%, rgba(186, 230, 253, 0.5) 100%);
+    background: radial-gradient(circle, rgb(224 242 254 / 60%) 0%, rgb(186 230 253 / 48%) 100%);
     backdrop-filter: blur(2px);
 }
 
@@ -1758,10 +1770,9 @@ a.btn.wrapper-cartbest {
    ============================================================ */
 
 .site-footer {
-    background-color: var(--body-color, #030812);
+    background-color: #00193e;
     font-family: inherit;
 }
-
 .text-orange {
     color: #ff6b35;
 }
@@ -1809,8 +1820,9 @@ a.btn.wrapper-cartbest {
 
 /* Bright Cyan Subscribe Card */
 .subscribe-cyan-card {
-    background-color: #00a8e8; /* Vibrant Cyan color matching image */
+    background-color: #00a8e8;
     box-shadow: 0 12px 30px rgba(0, 168, 232, 0.25);
+    border-radius: 20px;
 }
 
 .subscribe-input {
@@ -1829,7 +1841,7 @@ a.btn.wrapper-cartbest {
 }
 
 .btn-white-submit {
-    background-color: #ffffff;
+    background: #ffffff !important;
     border: none;
     min-width: 100px;
     transition: all 0.3s ease;
