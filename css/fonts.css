@@ -1,0 +1,162 @@
+/* ================================
+   1. Font Imports / @font-face
+   ================================ */
+
+/* Google Fonts Import (Bebas Neue & Inter directly via CDN) */
+
+
+/* Clash Display CDN (Fontshare API) */
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&display=swap');
+
+/* Local Fallback Fonts (Inter) */
+@font-face {
+    font-family: "inter_28pt-regular";
+    src: url("../fonts/inter/Inter-Regular.otf");
+}
+@font-face {
+    font-family: "inter_28pt-medium";
+    src: url("../fonts/inter/Inter-Medium.otf");
+}
+@font-face {
+    font-family: "inter_28pt-semiBold";
+    src: url("../fonts/inter/Inter-SemiBold.otf");
+}
+@font-face {
+    font-family: "inter_28pt-bold";
+    src: url("../fonts/inter/Inter-Bold.otf");
+}
+@font-face {
+    font-family: "inter_28pt-thin";
+    src: url("../fonts/inter/Inter-Thin-BETA.otf");
+}
+@font-face {
+    font-family: "inter_18pt-light";
+    src: url("../fonts/inter/Inter-Light-BETA.otf");
+}
+@font-face {
+    font-family: "inter-italic";
+    src: url("../fonts/inter/Inter-Italic.otf");
+}
+
+/* ================================
+   2. Root Variables
+   ================================ */
+:root {
+    /* Primary Font (Inter) */
+    --primary-regular-font: "inter_28pt-regular", "Inter", sans-serif;
+    --primary-bold-font: "inter_28pt-bold", "Inter", sans-serif;
+    --primary-semibold-font: "inter_28pt-semiBold", "Inter", sans-serif;
+    --primary-medium-font: "inter_28pt-medium", "Inter", sans-serif;
+    --primary-light-font: "inter_18pt-light", "Inter", sans-serif;
+    --primary-italic-font: "inter-italic", "Inter", sans-serif;
+
+    /* Display / Heading Font (Bebas Neue) */
+    --bebasneue-regular-font: "Bebas Neue", sans-serif;
+
+    /* Secondary Font (Clash Display) - Fixed Missing Variables */
+    --secondary-font: "Clash Display", sans-serif;
+    --secondary-regular-font: "Clash Display", sans-serif;
+    --secondary-medium-font: "Clash Display", sans-serif;
+    --secondary-semibold-font: "Clash Display", sans-serif;
+    --secondary-bold-font: "Clash Display", sans-serif;
+    --secondary-light-font: "Clash Display", sans-serif;
+    --secondary-italic-font: "Clash Display", sans-serif;
+}
+
+/* ================================
+   3. Font Classes
+   ================================ */
+
+/* Display / Primary Classes */
+.primary-font,
+.heading-font {
+    font-family: var(--secondary-semibold-font);
+}
+
+.primary-regular-font,
+.text-font {
+    font-family: var(--primary-regular-font);
+    font-weight: 400;
+}
+
+.primary-medium-font {
+    font-family: var(--primary-medium-font);
+    font-weight: 500;
+}
+
+.primary-semibold-font {
+    font-family: var(--primary-semibold-font);
+    font-weight: 600;
+}
+
+.primary-bold-font {
+    font-family: var(--primary-bold-font);
+    font-weight: 700;
+}
+
+.primary-light-font {
+    font-family: var(--primary-light-font);
+    font-weight: 300;
+}
+
+.primary-italic-font {
+    font-family: var(--primary-italic-font);
+    font-style: italic;
+}
+
+/* Secondary Classes (Clash Display) */
+.secondary-regular-font,
+.para-font {
+    font-family: var(--secondary-regular-font);
+    font-weight: 400;
+}
+
+.secondary-bold-font,
+.heading-bold {
+    font-family: var(--secondary-bold-font);
+    font-weight: 700;
+}
+
+.secondary-medium-font,
+.heading-medium {
+    font-family: var(--secondary-medium-font);
+    font-weight: 500;
+}
+
+.secondary-semibold-font,
+.heading-semibold {
+    font-family: var(--secondary-semibold-font);
+    font-weight: 600;
+}
+
+.secondary-light-font,
+.heading-light {
+    font-family: var(--secondary-light-font);
+    font-weight: 300;
+}
+
+.secondary-italic-font,
+.heading-italic {
+    font-family: var(--secondary-italic-font);
+    font-style: italic;
+}
+
+/* ================================
+   4. Font Sizes
+   ================================ */
+.level-1-lg { font-size: 98px; }
+.level-1    { font-size: 90px; }
+.level-2    { font-size: 55px; }
+.level-3-lg { font-size: 46px; }
+.level-3-md { font-size: 34px; }
+.level-3    { font-size: 27px; }
+.level-4    { font-size: 22px; }
+.level-5-lg { font-size: 20px; }
+.level-5    { font-size: 18px; }
+.level-6    { font-size: 16px; }
+.level-7    { font-size: 14px; }
+.level-8    { font-size: 12px; }
+.level-9    { font-size: 11px; }
+.level-10   { font-size: 10px; }
+.level-11   { font-size: 9px; }
+.level-12   { font-size: 7px; }

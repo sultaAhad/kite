@@ -1,0 +1,92 @@
+:root {
+    /* Brand & Accent Colors */
+    --primary-color: #ffffff;         /* Main White Text & Highlights */
+    --secondary-color: #E43E19;       /* Vibrant Orange (Buttons / Top Bar / Accents) */
+    --accent-yellow: #ffb800;         /* Highlight Yellow (Gradient & Text Accent) */
+    --accent-cyan: #14cae2;           /* Bright Teal/Cyan (Icon Badges) */
+    
+    /* Background Colors */
+    --body-color: #030812;            /* Deep Dark Navy Blue (Main Section BG) */
+    --dark-color: #060e1a;            /* Dark Card / Secondary Dark BG */
+    --header-bg: #e82e22;             /* Top Red/Orange Announcement Bar */
+    
+    /* Typography Colors */
+    --heading-color: #ffffff;         /* Heading Pure White */
+    --light-text: #9aa8b9;            /* Subtitles / Muted Paragraph Text */
+    --nav-color: #334155;             /* Navigation Links / Dark Text */
+
+    /* Extended Color Palette (UI Elements & Glassmorphism) */
+    --extra-color-1: #9aa8b9;         /* Light Grayish Blue Text */
+    --extra-color-2: #ffffff;         /* Pure White */
+    --extra-color-3: #040914;         /* Deepest Background Dark */
+    --extra-color-4: #151f30;         /* Dark Card Fill Background */
+    --extra-color-5: #1c2638;         /* Card Border / Divider Line */
+    --extra-color-6: rgba(255, 255, 255, 0.08); /* Soft Glass Container Fill */
+    --extra-color-7: rgba(255, 255, 255, 0.15); /* Glass Border / Outline */
+    --extra-color-8: #ff7d32;         /* Light Orange Accent */
+    --extra-color-9: #1e88e5;         /* Cyan/Blue Secondary Highlight */
+    --extra-color-10: #101928;        /* Dark Blue Panel */
+    --extra-color-11: #ffb800;        /* Gold / Rating Yellow */
+    --extra-color-12: #64748b;        /* Subtle Border Gray */
+    --extra-color-13: #00d2ff;        /* Neon Blue Accent */
+    --extra-color-14: #22d3ee;        /* Cyan Glow/Badge BG */
+    --extra-color-15: #ff8c38;        /* Soft Orange Glow */
+    --extra-color-16: #e82e22;        /* Alert/Red Top Bar */
+    --extra-color-17: #8794a8;        /* Muted Blue Gray */
+}
+
+/* ============================================================
+   TEXT COLOR CLASSES
+   ============================================================ */
+.primary-color   { color: var(--primary-color); }
+.secondary-color { color: var(--secondary-color); }
+.body-color      { color: var(--body-color); }
+.dark-color      { color: var(--dark-color); }
+.heading-color   { color: var(--heading-color); }
+.light-text      { color: var(--light-text); }
+.nav-color       { color: var(--nav-color); }
+
+.extra-color-1  { color: var(--extra-color-1); }
+.extra-color-2  { color: var(--extra-color-2); }
+.extra-color-3  { color: var(--extra-color-3); }
+.extra-color-4  { color: var(--extra-color-4); }
+.extra-color-5  { color: var(--extra-color-5); }
+.extra-color-6  { color: var(--extra-color-6); }
+.extra-color-7  { color: var(--extra-color-7); }
+.extra-color-8  { color: var(--extra-color-8); }
+.extra-color-9  { color: var(--extra-color-9); }
+.extra-color-10 { color: var(--extra-color-10); }
+.extra-color-11 { color: var(--extra-color-11); }
+.extra-color-12 { color: var(--extra-color-12); }
+.extra-color-13 { color: var(--extra-color-13); }
+.extra-color-14 { color: var(--extra-color-14); }
+.extra-color-15 { color: var(--extra-color-15); }
+.extra-color-16 { color: var(--extra-color-16); }
+.extra-color-17 { color: var(--extra-color-17); }
+
+/* ============================================================
+   BACKGROUND COLOR CLASSES
+   ============================================================ */
+.primary-bg   { background-color: var(--primary-color); }
+.secondary-bg { background-color: var(--secondary-color); }
+.body-bg      { background-color: var(--body-color); }
+.dark-bg      { background-color: var(--dark-color); }
+.header-bg    { background-color: var(--header-bg); }
+
+.extra-bg-1  { background-color: var(--extra-color-1); }
+.extra-bg-2  { background-color: var(--extra-color-2); }
+.extra-bg-3  { background-color: var(--extra-color-3); }
+.extra-bg-4  { background-color: var(--extra-color-4); }
+.extra-bg-5  { background-color: var(--extra-color-5); }
+.extra-bg-6  { background-color: var(--extra-color-6); }
+.extra-bg-7  { background-color: var(--extra-color-7); }
+.extra-bg-8  { background-color: var(--extra-color-8); }
+.extra-bg-9  { background-color: var(--extra-color-9); }
+.extra-bg-10 { background-color: var(--extra-color-10); }
+.extra-bg-11 { background-color: var(--extra-color-11); }
+.extra-bg-12 { background-color: var(--extra-color-12); }
+.extra-bg-13 { background-color: var(--extra-color-13); }
+.extra-bg-14 { background-color: var(--extra-color-14); }
+.extra-bg-15 { background-color: var(--extra-color-15); }
+.extra-bg-16 { background-color: var(--extra-color-16); }
+.extra-bg-17 { background-color: var(--extra-color-17); }
