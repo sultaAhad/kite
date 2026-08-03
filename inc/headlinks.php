@@ -44,4 +44,6 @@
 <link rel="stylesheet" href="css/global.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/auth.css">
+<link rel="stylesheet" href="css/profile.css">
+
 <!-- Css Stylesheet -->

@@ -1,6 +1,9 @@
 <!-- App Include Here -->
-<?php $headerClass = 'header-absolute';
-include 'inc/app.php'; ?>
+<?php 
+$headerClass = 'header-absolute';
+$logoImg = 'img/inner-logo.png'; // Yahan apna inner page wala logo ka path dalein
+include 'inc/app.php'; 
+?>
 
 <!-- Body Content Start Here -->
 
@@ -9,143 +12,154 @@ include 'inc/app.php'; ?>
 $pageTitle = "About Us";
 include 'inc/sub-banner.php';
 ?>
-<!-- banner Include Here  -->
+<!-- banner Include End Here  -->
 
-<section class="about-section section pb-lg-0">
+<style>
+    .kf-nav__link {
+        color: #fff;
+    }
+    /* Custom Styling for Image Section matching the layout */
+    .about-section {
+        background-color: #050b14;
+        color: #fff;
+        padding: 80px 0;
+    }
+    .about-img-box img {
+        border-radius: 24px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .about-content .sub-title {
+        color: #00bcd4;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .about-content h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 25px;
+    }
+    .about-content h2 span {
+        color: #00bcd4;
+    }
+    .about-content p {
+        color: #a0abbb;
+        font-size: 15px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+    .custom-btn {
+        background: linear-gradient(90deg, #00bcd4 0%, #009688 100%);
+        color: #fff;
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-weight: 500;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .custom-btn:hover {
+        color: #fff;
+        opacity: 0.9;
+    }
+    /* Vision & Mission Boxes */
+    .vision-box, .mission-box {
+        border-radius: 24px;
+        padding: 40px;
+        margin-top: 50px;
+        height: 100%;
+    }
+    .vision-box {
+        background-color: #0a1424;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .mission-box {
+        background-color: #00a8cc;
+        color: #fff;
+    }
+    .box-title-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    .box-title-area h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .box-title-area .line {
+        flex-grow: 1;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.2);
+        margin-left: 20px;
+    }
+    .vision-box p, .mission-box p {
+        font-size: 14px;
+        line-height: 1.8;
+        margin: 0;
+    }
+    .vision-box p {
+        color: #a0abbb;
+    }
+    .mission-box p {
+        color: #ffffff;
+    }
+</style>
+
+<!-- About Us Section Start Here -->
+<section class="about-section">
     <div class="container">
-        <div class="row align-items-center g-1 mb-5">
-            <div class="col-lg-7">
-                <p class="secondary-color level-10 primary-medium-font text-uppercase mb-3">
-                    03 / Marketplace
-                </p>
-                <h2 class="level-2 heading-font heading-color text-uppercase mb-4">
-                    We exist to make every weekend
-                    <span class="letters gradient____text">
-                        hot boat weekend
-                    </span>
-                </h2>
-                <p class="primary-regular-font level-7 extra-color-1 mb-4">
-                    HotBoatWeekend is America's premium social platform for boating culture — from the dock at sunrise to the marina at midnight.
-                </p>
-                <div class="about______bottom pe-lg-5">
-                    <h3 class="heading-font level-3 heading-color text-uppercase mb-3">
-                        Built By Boaters
-                    </h3>
-                    <p class="primary-regular-font level-7 extra-color-1 mb-4">
-                        We were tired of scattered Facebook groups, broken classifieds, and missed weekends. So we built a single home for the entire lake-life ecosystem — communities, events, marketplace, GPS lake intelligence, and a live social feed — under one cinematic roof.
-                        <br><br>
-                        Today, 12,000+ captains, 600+ communities, and 126 mapped lakes use HotBoatWeekend to plan their summer.
-                    </p>
-                    <a href="#" class="btn">
-                        Join The Crew
-                    </a>
+        <!-- Top Row: Image & Main Content -->
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <div class="about-img-box">
+                    <img src="img/collection-img1.png" alt="Children flying kite">
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="about-image-wrapper position-relative">
-                    <img src="img/about-img.png"
-                        class="img-fluid w-100 about-main-image"
-                        alt="">
-                    <div class="live-water-card">
-                        <div class="d-flex justify-content-between align-items-center mb-4">
-                            <span class="lake_____span position-relative ps-2 secondary-color level-10 text-uppercase primary-regular-font letter-spacing-3">
-                                Live on the water
-                            </span>
-                            <span class="extra-color-1 level-8">
-                                UTC-5
-                            </span>
-                        </div>
-                        <div class="live-item">
-                            <div class="item_____left d-flex align-items-center gap-2">
-                                <span class="live-avatar">M</span>
-                                <div class="live-content">
-                                    <h6 class="primary-color level-9 primary-regular-font mb-0">
-                                        Mia · Lake Havasu
-                                    </h6>
-                                    <p class="extra-color-1 level-10 mb-0">
-                                        joined Sunset Cruise
-                                    </p>
-                                </div>
-                            </div>
-                            <span class="live-time secondary-color level-11 primary-regular-font">
-                                now
-                            </span>
-                        </div>
-                        <div class="live-item">
-                            <div class="item_____left d-flex align-items-center gap-2">
-                                <span class="live-avatar">CR</span>
-                                <div class="live-content">
-                                    <h6 class="primary-color level-9 primary-regular-font mb-0">
-                                        Captain Reed
-                                    </h6>
-                                    <p class="extra-color-1 level-10 mb-0">
-                                        listed a Malibu 23 LSV
-                                    </p>
-                                </div>
-                            </div>
-                            <span class="live-time secondary-color level-11 primary-regular-font">
-                                1m
-                            </span>
-                        </div>
-                        <div class="live-item">
-                            <div class="item_____left d-flex align-items-center gap-2">
-                                <span class="live-avatar">WC</span>
-                                <div class="live-content">
-                                    <h6 class="primary-color level-9 primary-regular-font mb-0">
-                                        Wake Crew ATX
-                                    </h6>
-                                    <p class="extra-color-1 level-10 mb-0">
-                                        started a watch party
-                                    </p>
-                                </div>
-                            </div>
-                            <span class="live-time secondary-color level-11 primary-regular-font">
-                                3m
-                            </span>
-                        </div>
-                        <div class="live-divider"></div>
-                        <div class="live-footer d-flex justify-content-between align-items-center">
-                            <span class="extra-color-1 level-10">
-                                <span class="secondary-color pe-2"><i class="fa-solid fa-location-dot"></i></span> 847 events this weekend
-                            </span>
-                            <a href="#" class="secondary-color text-decoration-none level-10">
-                                View <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </div>
+            <div class="col-lg-7 ps-lg-5">
+                <div class="about-content">
+                    <span class="sub-title">THE WIND EXPERIENCE</span>
+                    <h2>More than a hobby.<br><span>A feeling.</span></h2>
+                    <p>kiteflyershop started in 2012 with a simple idea — bring the joy of flying something beautiful to as many people as possible. Today we ship premium kites, wind spinners and outdoor wind art to flyers around the world.</p>
+                    <p>We obsess over the details: weatherproof fabrics, balanced frames, festival-ready performance and gear that lasts season after season. Every product we list is one we'd happily fly ourselves on a windy Saturday.</p>
+                    <p>From quiet lakeside mornings to thunderous festival skies, our community is what keeps us going. Welcome aboard.</p>
+                    <a href="#" class="custom-btn">Shop the collection</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Row: Vision & Mission Boxes -->
+        <div class="row">
+            <!-- Our Vision Box -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="vision-box">
+                    <div class="box-title-area">
+                        <h3>Our Vision</h3>
+                        <div class="line"></div>
                     </div>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur. Excepteur Sint Occaecat Cupidatat Non Proident, Sunt In Culpa Qui Officia Deserunt Mollit Anim Id Est Laborum. Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua.</p>
+                </div>
+            </div>
+            <!-- Our Mission Box -->
+            <div class="col-lg-6">
+                <div class="mission-box">
+                    <div class="box-title-area">
+                        <h3>Our Mission</h3>
+                        <div class="line"></div>
+                    </div>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat. Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur. Excepteur Sint Occaecat Cupidatat Non Proident, Sunt In Culpa Qui Officia Deserunt Mollit Anim Id Est Laborum. Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<!-- mission-section Starts Here  -->
-<section class="mission-section section">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-6">
-                <div class="mission-card">
-                    <h3 class="heading-font level-2 heading-color text-uppercase mb-0">
-                        Our Mission
-                    </h3>
-                    <p class="primary-regular-font level-6 extra-color-1 mb-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="vision-card position-relative">
-                    <h3 class="heading-font level-2 primary-color text-uppercase mb-0">
-                        Our Vision
-                    </h3>
-                    <p class="primary-regular-font level-6 extra-color-2 mb-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- About Us Section End Here -->
 
 <!-- Body Content End Here -->
 

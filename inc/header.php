@@ -26,10 +26,13 @@
             <div class="container">
                 <div class="kf-main-header__container bg____wrap radius-20 p-3 py-2 d-flex align-items-center justify-content-between">
                     
-                    <!-- Logo -->
+                    <!-- Logo (Dynamic) -->
                     <figure class="kf-logo mb-0">
                         <a href="./" class="d-block">
-                            <img src="img/kite-logo.png" class="logo-here light-image img-fluid" alt="Kite Flyer Shop Logo" style="max-height: 40px;">
+                            <?php 
+                            $currentLogo = isset($logoImg) ? $logoImg : 'img/kite-logo.png'; 
+                            ?>
+                            <img src="<?php echo $currentLogo; ?>" class="logo-here light-image img-fluid" alt="Logo" style="max-height: 50px;">
                         </a>
                     </figure>
 
@@ -47,6 +50,9 @@
 
                     <!-- Right Actions (Cart & Button) -->
                     <div class="kf-header-actions d-none d-lg-flex align-items-center gap-3">
+                         <a href="login" class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
+                            <img src="img/cart.png" alt="Cart" width="20" height="20">
+                        </a>
                         <a href="cart" class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
                             <img src="img/cart.png" alt="Cart" width="20" height="20">
                         </a>
@@ -65,4 +71,3 @@
     </div>
 </header>
 <!-- Header End Here -->
-
