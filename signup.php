@@ -1,7 +1,8 @@
 <!-- App Include Here -->
 <?php 
+$headerClasslink = 'header-classlinkmenu';
 $headerClass = 'header-absolute';
-$logoImg = 'img/inner-logo.png';
+$logoImg = 'img/inner-logo.png'; // Yahan apna inner page wala logo ka path dalein
 include 'inc/app.php'; 
 ?>
 

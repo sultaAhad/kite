@@ -38,11 +38,11 @@
 
                     <!-- Desktop Navigation Links -->
                     <nav class="kf-nav d-none d-lg-block">
-                        <ul class="kf-nav__list list-unstyled d-flex align-items-center gap-4 mb-0">
+                        <ul class="kf-nav__list list-unstyled d-flex align-items-center gap-4 mb-0 <?php echo isset($headerClasslink) ? $headerClasslink : ''; ?>">
                             <li><a href="./" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Home</a></li>
                             <li><a href="shop" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Shop</a></li>
-                            <li><a href="explore" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Explore</a></li>
-                            <li><a href="festivals" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Festivals</a></li>
+                            <li><a href="explore.php" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Explore</a></li>
+                            <li><a href="festival" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Festivals</a></li>
                             <li><a href="about" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">About</a></li>
                             <li><a href="contact" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Contact</a></li>
                         </ul>
@@ -50,11 +50,15 @@
 
                     <!-- Right Actions (Cart & Button) -->
                     <div class="kf-header-actions d-none d-lg-flex align-items-center gap-3">
-                         <a href="login" class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
-                            <img src="img/cart.png" alt="Cart" width="20" height="20">
+                        <a href="wishlist.php" class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
+                           <i class="fa-solid fa-heart extra-color-10"></i>
                         </a>
+                         <a href="login" class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
+                            <i class="fa-solid fa-user extra-color-10"></i>
+                        </a>
+                        
                         <a href="cart" class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
-                            <img src="img/cart.png" alt="Cart" width="20" height="20">
+                            <i class="fa-solid fa-cart-shopping extra-color-10 "></i>
                         </a>
                         <a href="contact" class="btn kf-btn-primary">
                             Get In Touch <i class="fa-solid fa-arrow-right ms-1"></i>

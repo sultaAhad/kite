@@ -1818,7 +1818,9 @@ i.fa-solid.fa-quote-right {
 	align-items: center;
 	justify-content: center;
 }
-
+.header-classlinkmenu  li a {
+    color: #fff ! important;
+}
 /* Form Controls */
 .newsletter-form .form-control {
 	background-color: rgba(255, 255, 255, 0.9);

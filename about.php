@@ -1,5 +1,6 @@
 <!-- App Include Here -->
 <?php 
+$headerClasslink = 'header-classlinkmenu';
 $headerClass = 'header-absolute';
 $logoImg = 'img/inner-logo.png'; // Yahan apna inner page wala logo ka path dalein
 include 'inc/app.php'; 
@@ -15,9 +16,6 @@ include 'inc/sub-banner.php';
 <!-- banner Include End Here  -->
 
 <style>
-    .kf-nav__link {
-        color: #fff;
-    }
     /* Custom Styling for Image Section matching the layout */
     .about-section {
         background-color: #050b14;

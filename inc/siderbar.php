@@ -31,16 +31,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <i class="fa-solid fa-location-dot me-2"></i> My Addresses
             </a>
         </li>
-        <li>
-            <a href="kite-my-collection.php" class="<?php echo ($current_page == 'kite-my-collection.php') ? 'active' : ''; ?>">
-                <i class="fa-solid fa-layer-group me-2"></i> My Collection
-            </a>
-        </li>
-        <li>
-            <a href="kite-my-stats.php" class="<?php echo ($current_page == 'kite-my-stats.php') ? 'active' : ''; ?>">
-                <i class="fa-solid fa-chart-pie me-2"></i> My Stats
-            </a>
-        </li>
         <li class="border-none-last">
             <a href="logout.php" class="text-danger">
                 <i class="fa-solid fa-right-from-bracket me-2"></i> Log Out

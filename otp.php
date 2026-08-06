@@ -1,7 +1,8 @@
 <!-- App Include Here -->
 <?php 
+$headerClasslink = 'header-classlinkmenu';
 $headerClass = 'header-absolute';
-$logoImg = 'img/inner-logo.png';
+$logoImg = 'img/inner-logo.png'; // Yahan apna inner page wala logo ka path dalein
 include 'inc/app.php'; 
 ?>
 
@@ -112,7 +113,7 @@ include 'inc/sub-banner.php';
                     <h2 class="auth-title">Enter Verification Code</h2>
                     <p class="auth-desc">We have sent a 4-digit code to your email <span>johndoe@example.com</span></p>
                     
-                    <form class="auth-form" action="#" method="POST">
+                    <form class="auth-form" action="change-password.php" method="POST">
                         <!-- 4 Digit OTP Inputs -->
                         <div class="otp-inputs">
                             <input type="text" class="otp-input" maxlength="1" pattern="[0-9]*" inputmode="numeric" required>

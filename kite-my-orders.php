@@ -1,8 +1,8 @@
 <?php 
+$headerClasslink = 'header-classlinkmenu';
 $headerClass = 'header-absolute';
-$logoImg = 'img/inner-logo.png';
+$logoImg = 'img/inner-logo.png'; // Yahan apna inner page wala logo ka path dalein
 include 'inc/app.php'; 
-$order_id = isset($_GET['id']) ? $_GET['id'] : '94821';
 ?>
 
 <?php
