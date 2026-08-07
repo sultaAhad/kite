@@ -57,7 +57,8 @@ include 'inc/sub-banner.php';
         color: #6c7e93;
     }
 
-    .filter-chip {
+    /* Bootstrap Nav Pills Styling Override */
+    .explore-pills .nav-link {
         background-color: #050b14;
         border: 1px solid rgba(255, 255, 255, 0.1);
         color: #a0abbb;
@@ -65,14 +66,11 @@ include 'inc/sub-banner.php';
         border-radius: 20px;
         font-size: 13px;
         font-weight: 500;
-        cursor: pointer;
         transition: all 0.3s ease;
-        text-decoration: none;
-        display: inline-block;
         white-space: nowrap;
     }
-    .filter-chip:hover,
-    .filter-chip.active {
+    .explore-pills .nav-link:hover,
+    .explore-pills .nav-link.active {
         background: rgba(0, 188, 212, 0.15);
         color: #00bcd4;
         border-color: #00bcd4;
@@ -216,13 +214,24 @@ include 'inc/sub-banner.php';
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <div class="d-flex gap-2 overflow-auto pb-1 pt-1">
-                        <a href="javascript:void(0)" class="filter-chip active">All Spots</a>
-                        <a href="javascript:void(0)" class="filter-chip">Stunt Kites</a>
-                        <a href="javascript:void(0)" class="filter-chip">Beach Locations</a>
-                        <a href="javascript:void(0)" class="filter-chip">Pro Gear</a>
-                        <a href="javascript:void(0)" class="filter-chip">Festivals</a>
-                    </div>
+                    <!-- Bootstrap Tab Nav -->
+                    <ul class="nav nav-pills explore-pills flex-nowrap overflow-auto pb-1 pt-1 gap-2" id="exploreTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="tab-all-tab" data-bs-toggle="pill" data-bs-target="#tab-all" type="button" role="tab">All Spots</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab-stunt-tab" data-bs-toggle="pill" data-bs-target="#tab-stunt" type="button" role="tab">Stunt Kites</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab-beach-tab" data-bs-toggle="pill" data-bs-target="#tab-beach" type="button" role="tab">Beach Locations</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab-gear-tab" data-bs-toggle="pill" data-bs-target="#tab-gear" type="button" role="tab">Pro Gear</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab-festivals-tab" data-bs-toggle="pill" data-bs-target="#tab-festivals" type="button" role="tab">Festivals</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -250,66 +259,168 @@ include 'inc/sub-banner.php';
             </div>
         </div>
 
-        <!-- Explore Grid Cards -->
-        <div class="row g-4">
-            
-            <!-- Explore Card 1 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="explore-card">
-                    <div class="explore-img-wrapper">
-                        <img src="img/collection-img3.png" alt="Speed Kites">
+        <!-- Tab Content Wrapper -->
+        <div class="tab-content" id="exploreTabsContent">
+
+            <!-- TAB 1: ALL SPOTS -->
+            <div class="tab-pane fade show active" id="tab-all" role="tabpanel">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="explore-card">
+                            <div class="explore-img-wrapper">
+                                <img src="img/collection-img3.png" alt="Speed Kites">
+                            </div>
+                            <div class="explore-content">
+                                <span class="explore-category">Gear Spotlight</span>
+                                <a href="#" class="explore-title">Dual-Line Stunt Kites Precision Control Guide</a>
+                                <p class="explore-desc">Master trick flying and high-speed maneuvers with proper line tension and handle grips.</p>
+                                <div class="explore-meta">
+                                    <span><i class="fa-regular fa-eye me-1"></i> 1.2k Views</span>
+                                    <div class="action-btn-group">
+                                        <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
+                                        <i class="fa-regular fa-bookmark action-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="explore-content">
-                        <span class="explore-category">Gear Spotlight</span>
-                        <a href="#" class="explore-title">Dual-Line Stunt Kites Precision Control Guide</a>
-                        <p class="explore-desc">Master trick flying and high-speed maneuvers with proper line tension and handle grips.</p>
-                        <div class="explore-meta">
-                            <span><i class="fa-regular fa-eye me-1"></i> 1.2k Views</span>
-                            <div class="action-btn-group">
-                                <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
-                                <i class="fa-regular fa-bookmark action-icon"></i>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="explore-card">
+                            <div class="explore-img-wrapper">
+                                <img src="img/collection-img4.png" alt="Night Flying">
+                            </div>
+                            <div class="explore-content">
+                                <span class="explore-category">Community</span>
+                                <a href="#" class="explore-title">LED Night Kite Flying: Safety & Setup Tips</a>
+                                <p class="explore-desc">Illuminate the night sky safely using lightweight micro-LED strands and battery rigs.</p>
+                                <div class="explore-meta">
+                                    <span><i class="fa-regular fa-eye me-1"></i> 890 Views</span>
+                                    <div class="action-btn-group">
+                                        <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
+                                        <i class="fa-regular fa-bookmark action-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="explore-card">
+                            <div class="explore-img-wrapper">
+                                <img src="img/collection-img5.png" alt="Kite Crafting">
+                            </div>
+                            <div class="explore-content">
+                                <span class="explore-category">Tutorial</span>
+                                <a href="#" class="explore-title">DIY Ripstop Nylon Kite Framing Techniques</a>
+                                <p class="explore-desc">Learn how carbon fiber spars and durable bridle setups increase aerodynamic stability.</p>
+                                <div class="explore-meta">
+                                    <span><i class="fa-regular fa-eye me-1"></i> 2.4k Views</span>
+                                    <div class="action-btn-group">
+                                        <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
+                                        <i class="fa-regular fa-bookmark action-icon"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Explore Card 2 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="explore-card">
-                    <div class="explore-img-wrapper">
-                        <img src="img/collection-img4.png" alt="Night Flying">
-                    </div>
-                    <div class="explore-content">
-                        <span class="explore-category">Community</span>
-                        <a href="#" class="explore-title">LED Night Kite Flying: Safety & Setup Tips</a>
-                        <p class="explore-desc">Illuminate the night sky safely using lightweight micro-LED strands and battery rigs.</p>
-                        <div class="explore-meta">
-                            <span><i class="fa-regular fa-eye me-1"></i> 890 Views</span>
-                            <div class="action-btn-group">
-                                <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
-                                <i class="fa-regular fa-bookmark action-icon"></i>
+            <!-- TAB 2: STUNT KITES -->
+            <div class="tab-pane fade" id="tab-stunt" role="tabpanel">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="explore-card">
+                            <div class="explore-img-wrapper">
+                                <img src="img/collection-img3.png" alt="Speed Kites">
+                            </div>
+                            <div class="explore-content">
+                                <span class="explore-category">Stunt Kites</span>
+                                <a href="#" class="explore-title">Dual-Line Stunt Kites Precision Control Guide</a>
+                                <p class="explore-desc">Master trick flying and high-speed maneuvers with proper line tension and handle grips.</p>
+                                <div class="explore-meta">
+                                    <span><i class="fa-regular fa-eye me-1"></i> 1.2k Views</span>
+                                    <div class="action-btn-group">
+                                        <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
+                                        <i class="fa-regular fa-bookmark action-icon"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Explore Card 3 -->
-            <div class="col-lg-4 col-md-6">
-                <div class="explore-card">
-                    <div class="explore-img-wrapper">
-                        <img src="img/collection-img5.png" alt="Kite Crafting">
+            <!-- TAB 3: BEACH LOCATIONS -->
+            <div class="tab-pane fade" id="tab-beach" role="tabpanel">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="explore-card">
+                            <div class="explore-img-wrapper">
+                                <img src="img/collection-img1.png" alt="Beach Location">
+                            </div>
+                            <div class="explore-content">
+                                <span class="explore-category">Beach Location</span>
+                                <a href="#" class="explore-title">Best Windy Beaches in North America</a>
+                                <p class="explore-desc">Explore coastal dunes and steady offshore winds perfect for high-altitude soaring.</p>
+                                <div class="explore-meta">
+                                    <span><i class="fa-regular fa-eye me-1"></i> 3.1k Views</span>
+                                    <div class="action-btn-group">
+                                        <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
+                                        <i class="fa-regular fa-bookmark action-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="explore-content">
-                        <span class="explore-category">Tutorial</span>
-                        <a href="#" class="explore-title">DIY Ripstop Nylon Kite Framing Techniques</a>
-                        <p class="explore-desc">Learn how carbon fiber spars and durable bridle setups increase aerodynamic stability.</p>
-                        <div class="explore-meta">
-                            <span><i class="fa-regular fa-eye me-1"></i> 2.4k Views</span>
-                            <div class="action-btn-group">
-                                <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
-                                <i class="fa-regular fa-bookmark action-icon"></i>
+                </div>
+            </div>
+
+            <!-- TAB 4: PRO GEAR -->
+            <div class="tab-pane fade" id="tab-gear" role="tabpanel">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="explore-card">
+                            <div class="explore-img-wrapper">
+                                <img src="img/collection-img5.png" alt="Pro Gear">
+                            </div>
+                            <div class="explore-content">
+                                <span class="explore-category">Pro Gear</span>
+                                <a href="#" class="explore-title">Carbon Spars vs Fiberglass Rods Comparison</a>
+                                <p class="explore-desc">Which frame material gives the best flexibility and wind resistance? Full guide.</p>
+                                <div class="explore-meta">
+                                    <span><i class="fa-regular fa-eye me-1"></i> 1.8k Views</span>
+                                    <div class="action-btn-group">
+                                        <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
+                                        <i class="fa-regular fa-bookmark action-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 5: FESTIVALS -->
+            <div class="tab-pane fade" id="tab-festivals" role="tabpanel">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="explore-card">
+                            <div class="explore-img-wrapper">
+                                <img src="img/collection-img4.png" alt="Festivals">
+                            </div>
+                            <div class="explore-content">
+                                <span class="explore-category">Festivals</span>
+                                <a href="#" class="explore-title">International Kite Festivals Calendar 2026</a>
+                                <p class="explore-desc">Plan your trip to the world's most vibrant giant kite cultural events.</p>
+                                <div class="explore-meta">
+                                    <span><i class="fa-regular fa-eye me-1"></i> 5.2k Views</span>
+                                    <div class="action-btn-group">
+                                        <i class="fa-regular fa-heart action-icon" onclick="toggleLike(this)"></i>
+                                        <i class="fa-regular fa-bookmark action-icon"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

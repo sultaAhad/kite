@@ -24,16 +24,13 @@
                             data-bs-interval="3000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <p class="level-7 para-font extra-color-2 mb-0">🎉 Promotional banners displaying
-                                        discounts</p>
+                                    <p class="level-7 para-font extra-color-2 mb-0">🎉 Promotional banners displaying discounts</p>
                                 </div>
                                 <div class="carousel-item">
-                                    <p class="level-7 para-font extra-color-2 mb-0">🍂 Seasonal campaigns available now!
-                                    </p>
+                                    <p class="level-7 para-font extra-color-2 mb-0">🍂 Seasonal campaigns available now!</p>
                                 </div>
                                 <div class="carousel-item">
-                                    <p class="level-7 para-font extra-color-2 mb-0">⏰ Limited-time offers — Don't miss
-                                        out!</p>
+                                    <p class="level-7 para-font extra-color-2 mb-0">⏰ Limited-time offers — Don't miss out!</p>
                                 </div>
                             </div>
                         </div>
@@ -72,38 +69,48 @@
                     <nav class="kf-nav d-none d-lg-block">
                         <ul
                             class="kf-nav__list list-unstyled d-flex align-items-center gap-4 mb-0 <?php echo isset($headerClasslink) ? $headerClasslink : ''; ?>">
-                            <li><a href="./"
-                                    class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Home</a>
-                            </li>
-                            <li><a href="shop"
-                                    class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Shop</a>
-                            </li>
-                            <li><a href="explore.php"
-                                    class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Explore</a>
-                            </li>
-                            <li><a href="festival"
-                                    class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Festivals</a>
-                            </li>
-                            <li><a href="about"
-                                    class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">About</a>
-                            </li>
-                            <li><a href="contact"
-                                    class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Contact</a>
-                            </li>
+                            <li><a href="./" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Home</a></li>
+                            <li><a href="shop" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Shop</a></li>
+                            <li><a href="explore.php" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Explore</a></li>
+                            <li><a href="festival" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Festivals</a></li>
+                            <li><a href="about" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">About</a></li>
+                            <li><a href="contact" class="kf-nav__link level-7 primary-regular-font extra-color-1 text-decoration-none">Contact</a></li>
                         </ul>
                     </nav>
 
-                    <!-- Right Actions (Desktop) -->
-                    <div class="kf-header-actions d-none d-lg-flex align-items-center gap-3">
-                        <a href="login"
+                    <!-- Right Actions (Desktop): Search, Account, Wishlist, Cart -->
+                    <div class="kf-header-actions d-none d-lg-flex align-items-center gap-2">
+                        <!-- Product Search Trigger / Input -->
+                        <div class="header-search-box position-relative">
+                            <form action="shop" method="GET" class="d-flex align-items-center">
+                                <input type="text" name="search" class="form-control header-search-input radius-20" placeholder="Search products...">
+                                <button type="submit" class="header-search-btn border-0 bg-transparent">
+                                    <i class="fa-solid fa-magnifying-glass extra-color-10"></i>
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Customer Account -->
+                        <a href="login" title="Account"
                             class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
                             <i class="fa-solid fa-user extra-color-10"></i>
                         </a>
-                        <a href="cart"
-                            class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none">
-                            <i class="fa-solid fa-cart-shopping extra-color-10"></i>
+
+                        <!-- Wishlist -->
+                        <a href="kite-wishlist.php" title="Wishlist"
+                            class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none position-relative">
+                            <i class="fa-solid fa-heart extra-color-10"></i>
+                            <span class="badge-count">0</span>
                         </a>
-                        <a href="contact" class="btn kf-btn-primary">
+
+                        <!-- Shopping Cart -->
+                        <a href="cart" title="Shopping Cart"
+                            class="kf-cart-btn icon-badge md d-flex align-items-center justify-content-center text-decoration-none position-relative">
+                            <i class="fa-solid fa-cart-shopping extra-color-10"></i>
+                            <span class="badge-count">2</span>
+                        </a>
+
+                        <a href="contact" class="btn kf-btn-primary ms-2">
                             Get In Touch <i class="fa-solid fa-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -132,19 +139,22 @@
         </button>
     </div>
     <div class="drawer-body p-4">
+        <!-- Mobile Search Form -->
+        <form action="shop" method="GET" class="mb-4">
+            <div class="input-group">
+                <input type="text" name="search" class="form-control bg-dark text-white border-secondary" placeholder="Search products...">
+                <button class="btn btn-orange-gradient" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+
         <ul class="mobile-nav-list list-unstyled d-flex flex-column gap-3 mb-4">
-            <li class="mobile-nav-item"><a href="./" class="drawer-link"><i class="fa-solid fa-house me-3"></i>Home</a>
-            </li>
-            <li class="mobile-nav-item"><a href="shop" class="drawer-link"><i
-                        class="fa-solid fa-bag-shopping me-3"></i>Shop</a></li>
-            <li class="mobile-nav-item"><a href="explore.php" class="drawer-link"><i
-                        class="fa-solid fa-compass me-3"></i>Explore</a></li>
-            <li class="mobile-nav-item"><a href="festival" class="drawer-link"><i
-                        class="fa-solid fa-masks-theater me-3"></i>Festivals</a></li>
-            <li class="mobile-nav-item"><a href="about" class="drawer-link"><i
-                        class="fa-solid fa-circle-info me-3"></i>About</a></li>
-            <li class="mobile-nav-item"><a href="contact" class="drawer-link"><i
-                        class="fa-solid fa-envelope me-3"></i>Contact</a></li>
+            <li class="mobile-nav-item"><a href="./" class="drawer-link"><i class="fa-solid fa-house me-3"></i>Home</a></li>
+            <li class="mobile-nav-item"><a href="shop" class="drawer-link"><i class="fa-solid fa-bag-shopping me-3"></i>Shop</a></li>
+            <li class="mobile-nav-item"><a href="wishlist" class="drawer-link"><i class="fa-solid fa-heart me-3"></i>Wishlist</a></li>
+            <li class="mobile-nav-item"><a href="explore.php" class="drawer-link"><i class="fa-solid fa-compass me-3"></i>Explore</a></li>
+            <li class="mobile-nav-item"><a href="festival" class="drawer-link"><i class="fa-solid fa-masks-theater me-3"></i>Festivals</a></li>
+            <li class="mobile-nav-item"><a href="about" class="drawer-link"><i class="fa-solid fa-circle-info me-3"></i>About</a></li>
+            <li class="mobile-nav-item"><a href="contact" class="drawer-link"><i class="fa-solid fa-envelope me-3"></i>Contact</a></li>
         </ul>
         <a href="contact" class="btn btn-orange-gradient w-100 py-3 text-center rounded-pill">Get In Touch</a>
     </div>
@@ -161,6 +171,10 @@
             <i class="fa-solid fa-store"></i>
             <span>Shop</span>
         </a>
+        <a href="wishlist" class="bottom-nav-item position-relative">
+            <i class="fa-solid fa-heart"></i>
+            <span>Wishlist</span>
+        </a>
         <a href="cart" class="bottom-nav-item position-relative">
             <div class="icon-wrap position-relative">
                 <i class="fa-solid fa-cart-shopping"></i>
@@ -172,10 +186,6 @@
             <i class="fa-solid fa-user"></i>
             <span>Account</span>
         </a>
-        <button class="bottom-nav-item border-0 bg-transparent p-0" id="bottomMenuToggle">
-            <i class="fa-solid fa-bars"></i>
-            <span>Menu</span>
-        </button>
     </div>
 </nav>
 
@@ -194,11 +204,34 @@
     background-color: #0b0f19;
 }
 
-
-
-
 .kf-nav__link:hover {
     color: #ff7a00;
+}
+
+/* Header Search Input Styling */
+.header-search-box {
+    width: 180px;
+}
+.header-search-input {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #fff;
+    font-size: 13px;
+    padding-right: 35px;
+    height: 38px;
+}
+.header-search-input:focus {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border-color: #ff7a00;
+    box-shadow: none;
+}
+.header-search-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 /* Fixed Overlay Styling */
@@ -317,17 +350,21 @@
 
 /* Responsive Rules */
 @media (max-width: 991px) {
-    body {
-        padding-bottom: 65px !important;
-    }
-
     .kf-main-header.mt-3 {
         width: 100%;
     }
 }
+@media (max-width: 576px) {
+   .mobile-drawer-menu .btn {
+    font-size: 10px;
+    width: 26%;
+    display: block;
+}
+}
+
 </style>
 
-<!-- GSAP Script & Smooth Mobile Drawer Toggle Logic -->
+<!-- GSAP Script & Mobile Drawer Toggle Logic -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
@@ -336,12 +373,10 @@ document.addEventListener('DOMContentLoaded', function() {
     gsap.registerPlugin(ScrollTrigger);
 
     const openBtn = document.getElementById('mobileHamburgerBtn');
-    const bottomMenuBtn = document.getElementById('bottomMenuToggle');
     const closeBtn = document.getElementById('closeDrawerBtn');
     const overlay = document.getElementById('mobileDrawerOverlay');
     const drawer = document.getElementById('mobileDrawerMenu');
 
-    // Drawer Open Logic
     function openDrawer() {
         overlay.classList.add('active');
         drawer.classList.add('active');
@@ -360,7 +395,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Drawer Close Logic
     function closeDrawer() {
         overlay.classList.remove('active');
         drawer.classList.remove('active');
@@ -368,31 +402,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (openBtn) openBtn.addEventListener('click', openDrawer);
-    if (bottomMenuBtn) bottomMenuBtn.addEventListener('click', openDrawer);
     if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
     if (overlay) overlay.addEventListener('click', closeDrawer);
 
-    // Scroll Logic: Sticky header remove kar diya gaya hai. Sirf Mobile Bottom Bar hide/show scroll logic active hai.
     let lastScroll = 0;
-
     ScrollTrigger.create({
         start: 'top -50',
         onUpdate: (self) => {
             const currentScroll = self.scroll();
-
             if (window.innerWidth < 992) {
                 if (currentScroll > lastScroll && currentScroll > 120) {
-                    gsap.to(".mobile-bottom-app-bar", {
-                        y: 80,
-                        duration: 0.3,
-                        ease: "power1.out"
-                    });
+                    gsap.to(".mobile-bottom-app-bar", { y: 80, duration: 0.3, ease: "power1.out" });
                 } else {
-                    gsap.to(".mobile-bottom-app-bar", {
-                        y: 0,
-                        duration: 0.3,
-                        ease: "power1.out"
-                    });
+                    gsap.to(".mobile-bottom-app-bar", { y: 0, duration: 0.3, ease: "power1.out" });
                 }
             }
             lastScroll = currentScroll;
