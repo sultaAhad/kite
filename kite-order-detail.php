@@ -19,7 +19,7 @@ include 'inc/sub-banner.php';
                 <div class="my-profile-wrapper h-100">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h3 class="heading-italic-font text-white mb-0">Order #<?php echo $order_id; ?></h3>
-                        <a href="kite-my-orders.php" class="btn btn-dark btn-sm rounded-pill px-3 text-muted fw-bold">Back to Orders</a>
+                        <a href="kite-my-orders.php" class="btn">Back to Orders</a>
                     </div>
                     <hr class="mb-4 border-secondary-subtle">
 

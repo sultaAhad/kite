@@ -1532,6 +1532,28 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Community Gallery Section End -->
+ <section class="cta-banner-section d-flex align-items-center justify-content-center text-center">
+    <div class="overlay"></div>
+    <div class="container position-relative z-1">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- Heading -->
+                <h2 class="display-4 fw-bold text-white mb-3 heading-font">
+                    Explore Our 
+                    <span class=" gradient-text-orange">Latest Collections</span>
+                </h2>
+                <!-- Paragraph -->
+                <p class="cta-para text-white-50 mb-4 fs-5">
+                    Call-to-action sections encouraging visitors to explore collections and purchase products.
+                </p>
+                <!-- Button -->
+                <a href="explore" class="btn extra-color-8 rounded-pill px-4 py-2-5 fw-bold fs-7 d-inline-flex align-items-center gap-2">
+                    Explore Now
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Learning Hub Section Start -->
 <section class="learning-hub-sec py-5 position-relative overflow-hidden" id="learningHubSec">
     <div class="container py-lg-5">
@@ -1695,6 +1717,7 @@ include 'inc/app.php'; ?>
     </div>
 </section>
 <!-- Newsletter Banner Section End -->
+
 <!-- Body Content End Here -->
 
 <!-- Footer Include Here -->

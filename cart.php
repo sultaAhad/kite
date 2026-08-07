@@ -253,7 +253,7 @@ include 'inc/sub-banner.php';
                         <span>Total Amount</span>
                         <span>$157.97</span>
                     </div>
-                    <a href="checkout.php" class="checkout-btn">Proceed To Checkout</a>
+                    <a href="checkout.php" class="btn w-100">Proceed To Checkout</a>
                 </div>
             </div>
         </div>

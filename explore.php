@@ -233,7 +233,7 @@ include 'inc/sub-banner.php';
                 <div class="col-lg-7">
                     <div class="featured-img-box">
                         <span class="featured-badge">Featured Spot</span>
-                        <img src="img/explore-hero.jpg" alt="Featured Wind Location">
+                        <img src="img/collection-img1.png" alt="Featured Wind Location">
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -257,7 +257,7 @@ include 'inc/sub-banner.php';
             <div class="col-lg-4 col-md-6">
                 <div class="explore-card">
                     <div class="explore-img-wrapper">
-                        <img src="img/explore-1.jpg" alt="Speed Kites">
+                        <img src="img/collection-img3.png" alt="Speed Kites">
                     </div>
                     <div class="explore-content">
                         <span class="explore-category">Gear Spotlight</span>
@@ -278,7 +278,7 @@ include 'inc/sub-banner.php';
             <div class="col-lg-4 col-md-6">
                 <div class="explore-card">
                     <div class="explore-img-wrapper">
-                        <img src="img/explore-2.jpg" alt="Night Flying">
+                        <img src="img/collection-img4.png" alt="Night Flying">
                     </div>
                     <div class="explore-content">
                         <span class="explore-category">Community</span>
@@ -299,7 +299,7 @@ include 'inc/sub-banner.php';
             <div class="col-lg-4 col-md-6">
                 <div class="explore-card">
                     <div class="explore-img-wrapper">
-                        <img src="img/explore-3.jpg" alt="Kite Crafting">
+                        <img src="img/collection-img5.png" alt="Kite Crafting">
                     </div>
                     <div class="explore-content">
                         <span class="explore-category">Tutorial</span>

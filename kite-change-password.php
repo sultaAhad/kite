@@ -36,7 +36,7 @@ include 'inc/sub-banner.php';
                             </div>
                             <div class="col-12 mt-4">
                                 <button type="submit" class="btn-orange-gradient-pill">Update Password</button>
-                                <a href="kite-profile.php" class="btn btn-dark rounded-pill px-4 ms-2 text-muted fw-bold">Cancel</a>
+                                <a href="kite-profile.php" class="btn">Cancel</a>
                             </div>
                         </div>
                     </form>

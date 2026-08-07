@@ -21,7 +21,7 @@ include 'inc/sub-banner.php';
                 <div class="my-profile-wrapper h-100">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h3 class="heading-italic-font text-white mb-0">My Info</h3>
-                        <a href="kite-edit.php" class="btn-orange-gradient-pill">Edit Profile</a>
+                        <a href="kite-edit.php" class="btn">Edit Profile</a>
                     </div>
                     <hr class="mb-4 border-secondary-subtle">
 
