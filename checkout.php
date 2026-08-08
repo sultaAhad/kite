@@ -213,7 +213,8 @@ include 'inc/sub-banner.php';
                             <input type="checkbox" required class="form-check-input mt-1 bg-dark border-secondary">
                             <span>Nam massa dolor, imperdiet sed ante eget, luctus gravida ipsum lobortis eu. Donec id</span>
                         </label>
-                        <button type="submit" class="btn">Submit</button>
+                        <!-- <button type="submit" class="btn">Submit</button> -->
+                        <a href="thankyou.php" class="btn btn-outline-custom">Submit</a>
                     </div>
 
                 </form>
