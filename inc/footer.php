@@ -55,7 +55,7 @@
                 <ul class="list-unstyled footer-nav-list d-flex flex-column gap-2 mb-0">
                     <li><a href="faqs">FAQs</a></li>
                     <li><a href="privacy-policy">Privacy Policy</a></li>
-                    <li><a href="legal-policy">Legal Policy</a></li>
+                    <li><a href="legal-condition">Legal Policy</a></li>
                     <li><a href="terms-conditions">Terms &amp; Conditions</a></li>
                 </ul>
             </div>

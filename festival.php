@@ -126,7 +126,7 @@ include 'inc/sub-banner.php';
                     </div>
                     <div class="festival-content">
                         <span class="festival-date">AUG 09–11</span>
-                        <a href="festival-detail.php" class="festival-title">Lakeside Wind Days</a>
+                        <a href="festival-detail.php" class="festival-title text-decoration-underline">Lakeside Wind Days</a>
                         <p class="festival-location">Lake Como, IT</p>
                     </div>
                 </div>
